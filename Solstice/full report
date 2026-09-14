@@ -1,3 +1,10 @@
+Findings: 
+- heavily obfuscated (probably for hiding the source code, but why? the source was already leaked.)
+- the ds server French packet is another client. (online to total ratio is odd. seems botted)
+- French packet is a client that doesn't need internet connection to work. why does solstice go to their server?
+
+
+
 Solstice 1.21.3X:
 
 Virus total:
@@ -631,12 +638,7 @@ https://discord.gg/mCpPEsEgUX    - French Packet Beta 26.3x 311 online, 2103 mem
 
 from-memory reputation: high from: Solstice.dll
 
-
-
-Findings: 
-- heavily obfuscated (probably for hiding the source code, but why? the source was already leaked.)
-- the ds server French packet is another client. (online to total ratio is odd. seems botted)
-- French packet is a client that doesn't need internet connection to work. why does solstice go to their server?
+--------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 I looked into the domain dllserver.solstice.works and i have attached everything i could find.
