@@ -1,0 +1,826 @@
+Solstice 1.21.3X:
+
+Virus total:
+
+21/70 security vendors flagged this file as malicious
+SHA-256: 53154d375be24ef7766663a29ed69272c33762ad7f9cdfda53129c8cec738a23
+Solstice 26.3X.dll
+Size: 18.55 MB
+Last Analysis Date: 10 hours ago
+pedll
+64bits
+idle
+
+Detection
+
+Popular threat label: trojan.gamehack/kepavll
+Threat categories: trojan, pua
+Family labels: gamehack, kepavll, usblgr26
+Antiy-AVL: RiskWare/Win32.Gamehack
+Arctic Wolf: Unsafe
+Bkav Pro: W32.Malware.99279CE
+CTX: Dll.trojan.artemis
+Cynet: Malicious (score: 100)
+DeepInstinct: MALICIOUS
+ESET-NOD32: Win32/GameHack.FZV Potentially Unsafe Application
+Fortinet: Riskware/GameHack
+GData: Win64.Trojan.Agent.OIG7FV
+Google: Detected
+Kingsoft: Win32.Troj.kepavll.v
+Lionic: Trojan.Win32.Gamehack.4!c
+McAfee Scanner: Ti!53154D375BE2
+Microsoft: Trojan:Win32/Kepavll!rfn
+Skyhigh (SWG): Artemis
+Sophos: Mal/Generic-S
+Symantec: Trojan.Gamehack!ATN
+Trellix ENS: Artemis!164A0ED1F188
+TrendMicro: Trojan.Win64.GAMEHACK.USBLGR26
+TrendMicro-HouseCall: Trojan.Win64.GAMEHACK.USBLGR26
+Varist: W64/ABApplication.AMSV-1852
+
+
+
+MD5: 164a0ed1f188fa4a41122b56ab55d44e
+ 
+SHA-1: 7333adb7d47d64796ff421cbc80c0d6285af429b
+ 
+SHA-256: 53154d375be24ef7766663a29ed69272c33762ad7f9cdfda53129c8cec738a23
+ 
+Vhash: 117086656d756d0565555035z300d57z504az25031z79z
+ 
+Authentihash: 920de1671d7a76ab50e29963bff526cff4e08e26b7f3e4c4af9aafffb0455561
+ 
+Imphash: c665c5223a58c70f7c5233244c9bfa69
+ 
+Rich PE header hash: 1a24b3fd2cf613f18d200ebed76c60c7
+ 
+SSDEEP: 196608:R3hdxcKhNHGYbaEJEPdOR5jgxe54dDFzC4J+UZw9RWaiaWk:Rbx7hRGYbaAE42e5yDF+CItiaWk
+ 
+TLSH: T1A717AE1A72998194E07BC07DCEC7CE57E6B238084B10A7DB16E0579D2F77EE8097A721
+ 
+File type
+Win32 DLL 
+executable
+windows
+win32
+pe
+pedll
+ 
+Magic
+PE32+ executable (DLL) (GUI) x86-64, for MS Windows
+ 
+TrID
+Win64 Executable (generic) (51.9%)   OS/2 Executable (generic) (16.1%)   Generic Win/DOS Executable (15.9%)   DOS Executable (generic) (15.9%)
+ 
+DetectItEasy
+PE64   Compiler: Microsoft Visual C/C++ (19.36.35228) [LTCG/C++]   Linker: Microsoft Linker (14.36.35228)   Tool: Visual Studio (2022 version 17.6)
+ 
+Magika
+PEBIN
+ 
+File size
+18.55 MB (19455488 bytes)
+History
+Creation Time
+2026-07-19 09:36:50 UTC
+ 
+First Submission
+2026-07-20 09:34:28 UTC
+ 
+Last Submission
+2026-08-02 05:20:28 UTC
+ 
+Last Analysis
+2026-08-01 19:47:59 UTC
+Names
+Solstice 26.3X.dll
+Solstice.dll
+Solstice update.dll
+r9hzf.exe
+Unconfirmed 164706.crdownload
+Solstice 26.3X (2).dll
+Solstice30.dll
+Solstice (3).dll
+Portable Executable Info
+Compiler Products
+[IMP] VS2008 SP1 build 30729 count=4
+[---] Unmarked objects count=306
+[---] Unmarked objects (old) count=27
+id: 0x104, version: 33145 count=60
+id: 0x103, version: 33145 count=33
+id: 0x101, version: 35207 count=2
+id: 0x104, version: 35207 count=15
+id: 0x103, version: 35207 count=20
+id: 0x105, version: 35207 count=106
+id: 0x103, version: 35228 count=1
+id: 0x105, version: 33145 count=201
+id: 0x101, version: 33145 count=35
+id: 0x105, version: 35228 count=39
+id: 0x109, version: 35228 count=349
+id: 0xff, version: 35228 count=1
+id: 0x102, version: 35228 count=1
+Header
+Target Machine
+x64
+ 
+Compilation Timestamp
+2026-07-19 09:36:50 UTC
+ 
+Entry Point
+8698028
+ 
+Contained Sections
+8
+Sections
+Name	Virtual Address	Virtual Size	Raw Size	Entropy	MD5	Chi2
+.text	4096	9765716	9765888	6.28	966db049c39c0252780c1b778a74bc1b	73177608
+.rdata	9773056	2020918	2021376	6.06	df9ba9865c8c1f15ab15fc41e8bdeacc	38055456
+.data	11796480	7094188	6980608	7.2	fdcbb617a43b5aa1a43fc3bfe31830b3	35391504
+.pdata	18890752	642036	642048	6.62	40a843716b6b1f33780ebd6393b8935a	10639724
+.fptable	19533824	256	512	0	bf619eac0cdf3f68d496ea9344137e8b	130560
+_RDATA	19537920	9224	9728	6.02	5e327cb30b1e72be4ca967c9b604eeb7	237320.33
+.rsrc	19550208	480	512	4.73	2ed94e2371a139958832a902aa8941c0	9181
+.reloc	19554304	33500	33792	5.47	fea5838658b79bc7da55020cf32bcf76	184990.47
+
+
+Imports
+
+
+VERSION.dll
+dbghelp.dll
+WINMM.dll
+d3d12.dll
+d3d11.dll
+d2d1.dll
+dxgi.dll
+ole32.dll
+KERNEL32.dll
+USER32.dll
+GDI32.dll
+ADVAPI32.dll
+IMM32.dll
+D3DCOMPILER_47.dll
+dwmapi.dll
+bcrypt.dll
+api-ms-win-core-winrt-error-l1-1-1.dll
+api-ms-win-core-winrt-l1-1-0.dll
+OLEAUT32.dll
+VCOMP140.DLL
+Contained Resources by Type
+RT_MANIFEST
+1
+Contained Resources by Language
+ENGLISH US
+1
+Contained Resources
+SHA-256	File Type	Type	Language	Entropy	Chi2
+4bb79dcea0a901f7d9eac5aa05728ae92acb42e0cb22e5dd14134f4421a3d8df	XML	RT_MANIFEST	ENGLISH US	4.91	4031.47
+
+
+
+Contacted IP addresses
+(1)
+IP	Detections	Autonomous System	Country
+162.159.36.2	
+0 / 91
+13335	-
+Execution Parents
+(1)
+Scanned	Detections	Type	Name
+2026-08-02	
+14
+/ 67
+ZIP	Solstice 26.3X.zip
+Bundled Files
+(8)
+Scanned
+Detections
+File type
+Name
+2026-08-01
+0
+/ 61
+ISO image
+.fptable
+2026-08-01
+0
+/ 60
+XML
+.rsrc/MANIFEST/2
+file
+.data
+file
+.text
+file
+_RDATA
+file
+.reloc
+file
+.pdata
+file
+.rdata
+Graph Summary
+1 contacted ips
+1 execution parents
+8 bundled files
+
+
+
+Execution
+TA0002
+1 Techniques
+Hijack Execution Flow
+1
+T1574
+Stealth
+TA0005
+5 Techniques
+Obfuscated Files or Information
+3
+T1027
+System Binary Proxy Execution
+T1218
+Hijack Execution Flow
+1
+T1574
+Discovery
+TA0007
+2 Techniques
+System Owner/User Discovery
+1
+T1033
+System Information Discovery
+1
+T1082
+Command and Control
+TA0011
+1 Techniques
+Application Layer Protocol
+1
+T1071
+Malware Behavior Catalog Tree
+Anti-Behavioral Analysis
+OB0001
+Anti-Static Analysis
+OB0002
+Collection
+OB0003
+Credential Access
+OB0005
+Defense Evasion
+OB0006
+Persistence
+OB0012
+Privilege Escalation
+OB0013
+Communication
+OC0006
+Crowdsourced Sigma Rules
+CRITICAL 0
+HIGH 0
+MEDIUM 1
+LOW 0
+Matches rule Sysmon File Executable Creation Detected by frack113 at Sigma Integrated Rule Set (GitHub)
+Triggers on any Sysmon "FileExecutableDetected" event, which triggers every time a PE that is monitored by the config is created.
+-
+Sigma rule cannot be loaded.
+​
+Network Communication
+IP Traffic
+UDP 162.159.36.2:53
+Memory Pattern Domains
+discord.gg
+dllserver.solstice.works
+fontello.com
+fontello.comCopyright
+github.com
+scripts.sil.org
+www.dearimgui.com
+Memory Pattern Urls
+http://fontello.com
+http://fontello.comCopyright
+http://scripts.sil.org/OFLThis
+http://scripts.sil.org/OFLhttp://aajohan.deviantart.comJohan
+http://scripts.sil.org/OFLhttp://www.katatrad.comhttp://www.cadsondemak.comSuppakit
+http://www.dearimgui.com/faq/
+http://www.dearimgui.com/faq/Set
+https://discord.gg/mCpPEsEgUX
+https://dllserver.solstice.works/
+https://dllserver.solstice.works/L
+https://github.com/alexeiva/comfortaa
+https://github.com/cadsondemak/Sarabun
+Behavior Similarity Hashes
+C2AE
+7eb58e30b74038daa9b31b5d9df78cf2
+ 
+CAPE Sandbox
+f97cd2685f5a91641452e5464950bf5e
+ 
+Zenbox
+2b1105bba59f723ae1575cb119b0cf9b
+File system actions
+Files opened
+C:\Users\<USER>\Desktop\Solstice.dll
+C:\Users\<USER>\Desktop\Solstice.dll.123.Manifest
+C:\Users\<USER>\Desktop\Solstice.dll.124.Manifest
+C:\Users\<USER>\Desktop\Solstice.dll.manifest
+C:\Program Files (x86)\Common Files\Oracle\Java\java8path\
+C:\Program Files (x86)\Common Files\Oracle\Java\javapath\
+C:\Users\user\Desktop\Solstice.dll
+C:\Users\user\Desktop\Solstice.dll.123.Manifest
+C:\Users\user\Desktop\Solstice.dll.124.Manifest
+C:\Windows\AppPatch\sysmain.sdb
+C:\Windows\Globalization\Sorting\sortdefault.nls
+C:\Windows\SYSTEM32\AVRT.dll
+C:\Windows\SYSTEM32\CRYPTSP.dll
+C:\Windows\SYSTEM32\D3DCOMPILER_47.dll
+C:\Windows\SYSTEM32\DEVOBJ.dll
+C:\Windows\SYSTEM32\MMDevAPI.DLL
+C:\Windows\SYSTEM32\TextShaping.dll
+C:\Windows\SYSTEM32\VCOMP140.DLL
+C:\Windows\SYSTEM32\VERSION.dll
+C:\Windows\SYSTEM32\WINMM.dll
+C:\Windows\SYSTEM32\WLDP.DLL
+C:\Windows\SYSTEM32\apphelp.dll
+C:\Windows\SYSTEM32\bcrypt.dll
+C:\Windows\SYSTEM32\cfgmgr32.dll
+C:\Windows\SYSTEM32\d2d1.dll
+C:\Windows\SYSTEM32\d3d11.dll
+C:\Windows\SYSTEM32\d3d12.dll
+C:\Windows\SYSTEM32\dbghelp.dll
+C:\Windows\SYSTEM32\dwmapi.dll
+C:\Windows\SYSTEM32\dxgi.dll
+C:\Windows\SYSTEM32\kernel.appcore.dll
+C:\Windows\SYSTEM32\ntdll.dll
+C:\Windows\SYSTEM32\resourcepolicyclient.dll
+C:\Windows\SYSTEM32\xaudio2_9.dll
+C:\Windows\System32\KERNEL32.DLL
+C:\Windows\System32\KERNELBASE.dll
+C:\Windows\System32\conhost.exe
+C:\Windows\System32\en-US\user32.dll.mui
+C:\Windows\SystemResources\loaddll64.exe.mun
+C:\Windows\SystemResources\user32.dll.mun
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.22621.2361_none_2712ced57382f843
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.22621.2361_none_2712ced57382f843\comctl32.DLL
+C:\Windows\apppatch\MergeSdbFilesSource\sysMerge.sdb
+C:\Windows\system32\
+C:\Windows\system32\AUDIOSES.DLL
+C:\Windows\system32\CRYPTSP.dll
+C:\Windows\system32\D3DCOMPILER_47.dll
+C:\Windows\system32\IMM32.DLL
+C:\Windows\system32\VCOMP140.DLL
+C:\Windows\system32\VERSION.dll
+C:\Windows\system32\WINMM.dll
+C:\Windows\system32\bcrypt.dll
+C:\Windows\system32\conhost.exe
+C:\Windows\system32\d2d1.dll
+C:\Windows\system32\d3d11.dll
+C:\Windows\system32\d3d12.dll
+C:\Windows\system32\dbghelp.dll
+C:\Windows\system32\dwmapi.dll
+C:\Windows\system32\dxgi.dll
+C:\Windows\system32\en-US\conhost.exe.mui
+C:\Windows\system32\en-US\rundll32.exe.mui
+C:\Windows\system32\loaddll64.exe
+C:\Windows\system32\rpcss.dll
+C:\Windows\system32\uxtheme.dll
+C:\Windows\system32\uxtheme.dll.Config
+Files written
+\Device\ConDrv\\Connect
+Registry actions
+Registry keys opened
+HKEY_CURRENT_USER\Software\Microsoft\Direct3D\Direct2D
+HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion
+HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders
+HKEY_LOCAL_MACHINE\OSDATA\Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{BCDE0395-E52F-467C-8E3D-C4579291692E}
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{BCDE0395-E52F-467C-8E3D-C4579291692E}\Elevation
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{BCDE0395-E52F-467C-8E3D-C4579291692E}\InprocHandler
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{BCDE0395-E52F-467C-8E3D-C4579291692E}\InprocHandler32
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{BCDE0395-E52F-467C-8E3D-C4579291692E}\InprocServer32
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{BCDE0395-E52F-467C-8E3D-C4579291692E}\LocalServer
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{BCDE0395-E52F-467C-8E3D-C4579291692E}\LocalServer32
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{BCDE0395-E52F-467C-8E3D-C4579291692E}\TreatAs
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{E2F7A62A-862B-40AE-BBC2-5C0CA9A5B7E1}
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{E2F7A62A-862B-40AE-BBC2-5C0CA9A5B7E1}\Elevation
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{E2F7A62A-862B-40AE-BBC2-5C0CA9A5B7E1}\InprocHandler
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{E2F7A62A-862B-40AE-BBC2-5C0CA9A5B7E1}\InprocHandler32
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{E2F7A62A-862B-40AE-BBC2-5C0CA9A5B7E1}\InprocServer32
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{E2F7A62A-862B-40AE-BBC2-5C0CA9A5B7E1}\LocalServer
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{E2F7A62A-862B-40AE-BBC2-5C0CA9A5B7E1}\LocalServer32
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{E2F7A62A-862B-40AE-BBC2-5C0CA9A5B7E1}\TreatAs
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\AppModel\Lookaside\machine
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\AppModel\Lookaside\user
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\OLE
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\OLEAUT
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\cmd.exe
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\loaddll64.exe
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\rundll32.exe
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Render\{23671bc7-1a03-44fa-ba59-7c99e25e7e40}
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Render\{23671bc7-1a03-44fa-ba59-7c99e25e7e40}\Properties
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\DevQuery\1
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\DevQuery\10
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\DevQuery\11
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\DevQuery\2
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\DevQuery\3
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\DevQuery\4
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\DevQuery\5
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\DevQuery\6
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\DevQuery\7
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\DevQuery\8
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\DevQuery\9
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\DevQuery
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Segment Heap
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Policies\Microsoft\Cryptography\Configuration
+HKEY_LOCAL_MACHINE\Software\Classes
+HKEY_LOCAL_MACHINE\Software\Microsoft\COM3
+HKEY_LOCAL_MACHINE\Software\Microsoft\Direct2D
+HKEY_LOCAL_MACHINE\Software\Microsoft\LanguageOverlay\OverlayPackages\en-US
+HKEY_LOCAL_MACHINE\Software\Microsoft\OLE
+HKEY_LOCAL_MACHINE\Software\Microsoft\OLE\Tracing
+HKEY_LOCAL_MACHINE\Software\Microsoft\Ole
+HKEY_LOCAL_MACHINE\Software\Microsoft\Ole\FeatureDevelopmentProperties
+HKEY_LOCAL_MACHINE\Software\Microsoft\Rpc
+HKEY_LOCAL_MACHINE\Software\Microsoft\Rpc\Extensions
+HKEY_LOCAL_MACHINE\Software\Microsoft\SecurityManager\TransientObjects\%5C%5C.%5CRpc%5CAllowLpacAppExperience%5CInterface
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\SdbUpdates
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\SdbUpdates\ManifestedMergeStubSdbs
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\GRE_Initialize
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Audio
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\SideBySide
+HKEY_LOCAL_MACHINE\Software\Microsoft\Wow64\x86\xtajit
+HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\MUI\Settings
+HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows NT\Rpc
+HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\Display
+HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\Safer\CodeIdentifiers
+HKEY_LOCAL_MACHINE\System\Setup
+Process and service actions
+Processes created
+"C:\Windows\sysnative\rundll32.exe" "C:\Users\<USER>\Desktop\Solstice.dll",#1
+C:\Windows\System32\cmd.exe cmd.exe /C rundll32.exe "C:\Users\user\Desktop\Solstice.dll",#1
+C:\Windows\System32\conhost.exe C:\Windows\system32\conhost.exe 0xffffffff -ForceV1
+C:\Windows\System32\loaddll64.exe loaddll64.exe "C:\Users\user\Desktop\Solstice.dll"
+C:\Windows\System32\rundll32.exe rundll32.exe "C:\Users\user\Desktop\Solstice.dll",#1
+Processes tree
+2836 - wmiadap.exe /F /T /R
+2612 - %SANDBOX_DLL_LOADER_AMD64% %TEMP%\OGOE92840BO25LA2.dll %WORKDIR% 483
+2876 - %windir%\system32\wbem\wmiprvse.exe
+6124 - "C:\Windows\sysnative\rundll32.exe" "C:\Users\<USER>\Desktop\Solstice.dll",#1
+6772 - C:\Windows\System32\loaddll64.exe loaddll64.exe "C:\Users\user\Desktop\Solstice.dll"
+ 6812 - C:\Windows\System32\conhost.exe C:\Windows\system32\conhost.exe 0xffffffff -ForceV1
+ 6932 - C:\Windows\System32\cmd.exe cmd.exe /C rundll32.exe "C:\Users\user\Desktop\Solstice.dll",#1
+ 6976 - C:\Windows\System32\rundll32.exe rundll32.exe "C:\Users\user\Desktop\Solstice.dll",#1
+
+
+
+Zenbox Report:
+
+Overview
+Zenbox Verdict
+2/100
+Non Malicious
+Report generated:
+20/07/2026 09:34:46
+Guest System:
+Windows 11 Ultimate
+File Info
+File name:
+Solstice.dll
+File type:
+PE32+ executable (DLL) (GUI) x86-64, for MS Windows
+File size:
+18.55 MB
+SHA256:
+53154d375be24ef7766663a29ed69272c33762ad7f9cdfda53129c8cec738a23
+SHA1:
+7333adb7d47d64796ff421cbc80c0d6285af429b
+MD5:
+164a0ed1f188fa4a41122b56ab55d44e
+SHA512:
+8e333d93d7fa7aba7eaae84de216245b8429c3ffce45d3de184c24112ad4a112993acc077716aa0fed513d551ae3bb2d66443a61b739ccf8b4dbb104c3d43a61
+Entropy:
+6.921967488945868
+Submission path:
+C:\Users\user\desktop\
+SSDEEP:
+196608:R3hdxcKhNHGYbaEJEPdOR5jgxe54dDFzC4J+UZw9RWaiaWk:Rbx7hRGYbaAE42e5yDF+CItiaWk
+Preview:
+MZ......................@...................................0...........!..L.!This program cannot be run in DOS mode....$.......yh.e=..6=..6=..6D..7...6D..7...6...7?..6...72..6...7)..6...7W..64qm69..6...7<..6D..7...6D..7...6=..6...6...7...6...7`..6=..6&..
+Indicators
+System Summary (19)
+1.0
+Sigma detected: Unsigned DLL Loaded by RunDLL32/RegSvr32
+0.0
+PE file has an executable .text section and no other executable section
+0.0
+Reads software policies
+0.0
+Runs a DLL by calling functions
+0.0
+Spawns processes
+0.0
+Tries to load missing DLLs
+0.0
+Uses an in-process (OLE) Automation server
+0.0
+Creates mutexes
+0.0
+Classification label
+-0.77
+PE file contains a valid data directory to section mapping
+-0.8
+Binary contains paths to debug symbols
+-0.82
+PE file contains a debug data directory
+-0.91
+Contains modern PE file flags such as dynamic base (ASLR) or NX
+-0.92
+PE file contains a mix of data directories often seen in goodware
+-0.96
+PE file imports many functions
+-0.97
+PE file has a big raw section
+-1.0
+Submission file is bigger than most known malware samples
+-1.0
+PE file has a big code size
+-1.0
+PE file has a high image base, often used for DLLs
+Data Obfuscation (1)
+1.0
+PE file contains sections with non-standard names
+Hooking and other Techniques for Hiding and Protection (1)
+0.0
+Disables application error messsages (SetErrorMode)
+Malware Analysis System Evasion (1)
+1.0
+Program does not show much activity (idle)
+Anti Debugging (1)
+1.0
+Program does not show much activity (idle)
+HIPS / PFW / Operating System Protection Evasion (1)
+1.0
+Creates a process in suspended mode (likely to inject code)
+Networking (1)
+0.0
+URLs found in memory or binary data
+Analysis Advice (1)
+0.0
+Sample tries to load a library which is not present or installed on the analysis machine, adding the library might reveal more behavior
+Compliance (2)
+-0.8
+Binary contains paths to debug symbols
+-0.91
+Contains modern PE file flags such as dynamic base (ASLR) or NX
+Mitre Attack
+Persistence
+T1574.002 DLL Side-Loading confidence: low
+Privilege Escalation
+T1055 Process Injection confidence: medium
+T1574.002 DLL Side-Loading confidence: low
+Defense Evasion
+T1218.011 Rundll32 confidence: low
+T1055 Process Injection confidence: medium
+T1574.002 DLL Side-Loading confidence: low
+Discovery
+T1082 System Information Discovery confidence: low
+Network Info
+URL Info (13)
+https://github.com/cadsondemak/Sarabun)
+
+from-memory reputation: high from: Solstice.dll
+https://dllserver.solstice.works/
+
+from-memory from: Solstice.dll
+http://scripts.sil.org/OFLhttp://aajohan.deviantart.comJohan
+
+from-memory from: Solstice.dll
+http://fontello.comCopyright
+
+from-memory from: Solstice.dll
+https://github.com/alexeiva/comfortaa)
+
+from-memory reputation: high from: Solstice.dll
+http://fontello.com
+
+from-memory from: Solstice.dll
+http://scripts.sil.org/OFLhttp://www.katatrad.comhttp://www.cadsondemak.comSuppakit
+
+from-memory from: Solstice.dll
+https://dllserver.solstice.works/L
+
+from-memory from: Solstice.dll
+http://scripts.sil.org/OFLThis
+
+from-memory from: Solstice.dll
+http://www.dearimgui.com/faq/
+
+from-memory from: Solstice.dll
+https://www.google.com/fonts/license/productsans
+
+from-memory reputation: high from: Solstice.dll
+http://www.dearimgui.com/faq/Set
+
+from-memory from: Solstice.dll
+https://discord.gg/mCpPEsEgUX    - French Packet Beta 26.3x 311 online, 2103 members.
+
+from-memory reputation: high from: Solstice.dll
+
+
+
+Findings: 
+- heavily obfuscated (probably for hiding the source code, but why? the source was already leaked.)
+- the ds server French packet is another client. (online to total ratio is odd. seems botted)
+- French packet is a client that doesn't need internet connection to work. why does solstice go to their server?
+
+
+I looked into the domain dllserver.solstice.works and i have attached everything i could find.
+
+crt.sh ID	Logged At	Not Before	Not After	Common Name	Matching Identities
+28307644617	2026-07-28	2026-07-28	2026-10-26	solstice.works	solstice.works
+28307647701	2026-07-28	2026-07-28	2026-10-26	solstice.works	solstice.works
+20813005497	2025-09-05	2025-09-05	2025-12-03	sitemaps.solstice.works	sitemaps.solstice.works
+20812997279	2025-09-05	2025-09-05	2025-12-03	sitemaps.solstice.works	sitemaps.solstice.works
+20701554232	2025-08-31	2025-08-31	2026-08-30	www.dllserver.solstice.works	www.dllserver.solstice.works
+20701556972	2025-08-31	2025-08-31	2026-08-30	www.dllserver.solstice.works	www.dllserver.solstice.works
+20659875143	2025-08-29	2025-08-29	2026-08-28	sitemap.solstice.works	sitemap.solstice.works
+20659840633	2025-08-29	2025-08-29	2026-08-28	sitemap.solstice.works	sitemap.solstice.works
+20263933242	2025-08-11	2025-08-11	2026-08-10	www.solstice.works	www.solstice.works
+20264027415	2025-08-11	2025-08-11	2026-08-10	www.solstice.works	www.solstice.works
+20069098651	2025-08-02	2025-08-02	2026-08-01	solstice.works	solstice.works
+20069099046	2025-08-02	2025-08-02	2026-08-01	solstice.works	solstice.works
+20062459149	2025-08-02	2025-08-02	2026-08-01	dllserver.solstice.works	dllserver.solstice.works
+20062458547	2025-08-02	2025-08-02	2026-08-01	dllserver.solstice.works	dllserver.solstice.works
+19798009127	2025-07-20	2025-07-20	2025-10-18	solstice.works	*.solstice.works
+19797336882	2025-07-20	2025-07-20	2025-10-18	solstice.works	*.solstice.works
+19414909814	2025-07-03	2025-07-03	2025-09-29	solstice.works	*.solstice.works
+19414909866	2025-07-03	2025-07-03	2025-09-29	solstice.works	*.solstice.works
+18560331610	2025-05-22	2025-05-22	2025-08-20	solstice.works	*.solstice.works
+18559329746	2025-05-22	2025-05-22	2025-08-20	solstice.works	*.solstice.works
+17370188423	2025-03-24	2025-03-24	2025-06-22	solstice.works	*.solstice.works
+17475837210	2025-03-24	2025-03-24	2025-06-22	solstice.works	*.solstice.works
+16419042352	2025-01-24	2025-01-24	2025-04-24	solstice.works	*.solstice.works
+16399242416	2025-01-24	2025-01-24	2025-04-24	solstice.works	*.solstice.works
+15662244538	2024-11-26	2024-11-26	2025-02-24	solstice.works	*.solstice.works
+14721064371	2024-09-28	2024-09-28	2024-12-27	solstice.works	*.solstice.works
+13942678196	2024-07-31	2024-07-31	2025-07-31	solstice.works	*.solstice.works
+13942678185	2024-07-31	2024-07-31	2025-07-31	solstice.works	*.solstice.works
+13942684550	2024-07-31	2024-07-31	2024-10-29	solstice.works	*.solstice.works
+12352517100	2024-03-12	2024-03-12	2024-06-10	www.solstice.works	www.solstice.works
+12352512027	2024-03-12	2024-03-12	2024-06-10	www.solstice.works	www.solstice.works
+12131655766	2024-02-20	2024-02-20	2024-05-20	ugwcscan945ac4e04b0f62638dea205e158c2645.solstice.works	ugwcscan945ac4e04b0f62638dea205e158c2645.solstice.works
+12131656572	2024-02-20	2024-02-20	2024-05-20	ugwcscan945ac4e04b0f62638dea205e158c2645.solstice.works	ugwcscan945ac4e04b0f62638dea205e158c2645.solstice.works
+12015254320	2024-02-08	2024-02-08	2024-05-08	solstice.works	solstice.works
+12015246923	2024-02-08	2024-02-08	2024-05-08	solstice.works	solstice.works
+Quick summary from this table:
+First seen: 2024-02-08 (solstice.works)
+dllserver.solstice.works confirmed: 2025-08-02
+www.dllserver.solstice.works confirmed: 2025-08-31
+Latest certificate before parking: 2026-07-28 (solstice.works)
+The domain had continuous certificate activity from Feb 2024 → Jul 2026.
+
+SSL/TLS Certificate for solstice.works
+Valid
+Issued by (CA)
+Let's Encrypt
+Subject
+solstice.works
+Valid from
+Jul 28, 2026
+Valid until
+Oct 26, 2026 (84 days remaining)
+Public key
+RSA 4096-bit
+Serial
+06BFECBE6BAC0B8B0AC3F279A893820163C0
+SHA-256 fingerprint
+64:42:AC:1C:1D:AE:35:4B:AC:21:9D:4C:B3:80:DD:92:3B:00:19:0A:DD:59:12:14:F8:4C:FF:1A:D2:37:BC:4D
+Chain
+YR2 → Root YR → ISRG Root X1
+Subject Alternative Names (1)
+solstice.works
+
+DNS Records for solstice.works
+Hostname	Type	TTL	Priority	Content
+solstice.works	A	0		52.20.84.62
+solstice.works	NS	0		ns2.atom.com
+solstice.works	NS	0		ns1.atom.com
+solstice.works	SOA	3600		ns1.atom.com hostmaster.solstice.works 2026071903 10800 3600 604800 3600
+www.solstice.works	A	0		52.20.84.62
+
+
+Domain Contacts
+Registrant Contact
+Organization
+Privacy service provided by Withheld for Privacy ehf
+Handle
+019f70070cd5773199015a36b6ef9b9f-Spacesh
+Phone
+tel:+354.4212434
+Address
+Kalkofnsvegur 2, Reykjavik, Capital Region, 101
+Country
+Iceland
+Contact URI
+https://www.spaceship.com/domains/whois/contact/?d=solstice.works
+Registrar Information
+Name
+Spaceship, Inc.
+Handle
+3862
+Public ID
+3862
+Public ID Type
+IANA Registrar ID
+Email
+support [at] spaceship [dot] com
+Phone
+tel:+1.6613102107
+Registrar Contacts
+Abuse Contact
+Name
+Spaceship, Inc.
+Email
+abuse [at] spaceship [dot] com
+Phone
+tel:+1.6613102107
+Basic Information
+Status
+client transfer prohibited
+Resource URL
+https://rdap.identitydigital.services/rdap/domain/solstice.works
+Important Dates
+Expiration
+July 17, 2027
+Registration
+July 17, 2026
+Last changed
+July 26, 2026
+Last update of RDAP database
+August 2, 2026
+Registrar expiration
+July 17, 2027
+RDAP data last fetched August 2, 2026
+
+Nameservers
+Hostname	IP Address
+ns1.atom.com	44.219.81.145
+ns2.atom.com	50.19.240.86
+
+Domain Information
+Name: solstice.works
+Internationalized Domain Name: solstice.works
+Registry Domain ID: The RDAP server redacted the value
+Domain Status:
+clientTransferProhibited
+
+Nameservers:
+ns1.atom.com
+
+ns2.atom.com
+
+Dates
+Registry Expiration: 2027-07-17 12:22:18 UTC
+Registrar Expiration: 2027-07-17 12:22:18 UTC
+Updated: 2026-07-26 19:08:26 UTC
+Created: 2026-07-17 12:22:18 UTC
+Contact Information
+Registrant:
+Handle: 019f70070cd5773199015a36b6ef9b9f-Spacesh
+Name: The RDAP server redacted the value
+Organization: Privacy service provided by Withheld for Privacy ehf
+Phone: tel:+354.4212434
+Mailing Address: Kalkofnsvegur 2, Reykjavik, Capital Region, 101
+ISO-3166 Code: IS
+Contact Uri: https://www.spaceship.com/domains/whois/contact/?d=solstice.works
+Technical:
+Handle: 019f70070cd5773199015a36b6ef9b9f-Spacesh
+Name: The RDAP server redacted the value
+Organization: Privacy service provided by Withheld for Privacy ehf
+Phone: tel:+354.4212434
+Mailing Address: Kalkofnsvegur 2, Reykjavik, Capital Region, 101
+ISO-3166 Code: IS
+Contact Uri: https://www.spaceship.com/domains/whois/contact/?d=solstice.works
+
+Registrar Information
+Name: Spaceship, Inc.
+IANA ID: 3862
+Abuse contact email: abuse@spaceship.com
+Abuse contact phone: tel:+1.6613102107
+About the Registrar: https://spaceship.com
+DNSSEC Information
+Max sig life: 1
+Delegation Signed: Unsigned
+
+Authoritative Servers
+Registry Server URL: https://rdap.identitydigital.services/rdap/domain/solstice.works
+Last updated from Registry RDAP DB: 2026-08-02T06:17:27.116Z
+Registrar Server URL: https://rdap.spaceship.com/domain/solstice.works
+Last updated from Registrar RDAP DB: 2026-08-02T06:17:27.116Z
+
+
