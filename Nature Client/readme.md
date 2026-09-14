@@ -130,9 +130,6 @@ It's concerning to say the least
 
 but why does it need this -> *https://accounts.spotify.com/api/token*
 
-
-**I don't have enough evidence to claim that it can doxx someone**, but who knows what the truth is...
-
 ---
 
 <details>
@@ -157,6 +154,7 @@ PE Executable (64-bit)
 
 ## Disclaimer: 
 > The analysis was done at 2026-07-23 -> 2026-07-27. Things may have changed as of now.
+> I may have said about the client **doxxing** you. But that's unlikely true. it's just a **concern**.
 
 ## 📝 GitHub Note
 
