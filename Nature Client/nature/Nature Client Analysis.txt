@@ -1,4 +1,4 @@
-Recently Nature Client suffered from a big typo squatting attack.
+Recently Nature Client suffered from a domain interfernce.
 
 I downloaded the client eventually. 
 
@@ -1505,7 +1505,7 @@ It might be a stage based malware.
 example: it's gathering information on first iteration. 
 maybe it detonates the payload second time. (who knows. this is just a guess btw)
 
-Considering the fact that it is literally was downloaded from a typo squatted website.
+Considering the fact that it is literally was downloaded from a suspicios website.
 it could be malware.
 
 and even if it isn't.
