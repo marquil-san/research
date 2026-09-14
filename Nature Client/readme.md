@@ -131,7 +131,7 @@ It's concerning to say the least
 but why does it need this -> *https://accounts.spotify.com/api/token*
 
 
-**I don't have enough evidence to claim that it can doxx someone**, but I think this is worth investigating before trusting the client.
+**I don't have enough evidence to claim that it can doxx someone**, but who knows what the truth is...
 
 ---
 
