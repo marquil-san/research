@@ -1,4 +1,4 @@
-# ⚠️ Nature Client Analysis
+# Nature Client Analysis
 
 
 <p align="center">
@@ -11,7 +11,7 @@
 
 ---
 
-## 🚨 VirusTotal
+## VirusTotal
 
 | Result           | Value                                               |
 | ---------------- | --------------------------------------------------- |
