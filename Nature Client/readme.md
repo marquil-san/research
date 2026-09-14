@@ -28,7 +28,7 @@
 
 ### 🎵 Spotify / Account-related strings
 
-A **Minecraft client** containing references to Spotify and account-related APIs is unusual.
+A **Minecraft client** referencing Spotify is *unusual* to say the least.
 
 | Found                  |
 | ---------------------- |
