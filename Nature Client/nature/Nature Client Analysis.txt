@@ -1,0 +1,1522 @@
+Recently Nature Client suffered from a big typo squatting attack.
+
+I downloaded the client eventually. 
+
+I ran the exe and it did inject.
+
+idk why but my game was lagging really bad. like 10 fps minimum.
+
+there's other clients like solstice that have way more modules, that are in my opinion better than this Nature Client.
+
+It made me extremely suspicious so i did a virustotal analysis. 
+
+Here's the entire report. I 've attached everything i could.
+
+
+
+
+1. Virustotal report: 
+
+File Information
+File Name: Launcher.exe
+SHA-256: 18eab960e53c3abae8dab0efc833fca7ab568bbb2fd5bc94a515b8f867b3f599
+File Size: 21.76 MB
+File Type: PE Executable (64-bit)
+Last Analysis: 7 days ago
+AV: detection
+
+19/69 security vendors detected the file as malicious.
+
+Antiy-AVL — Trojan/Win32.Agent
+Avast — FileRepMalware [Misc]
+AVG — FileRepMalware [Misc]
+Bkav Pro — W32.Malware.E566B583
+CTX — Exe.trojan.artemis
+ESET NOD32 — Win64/Riskware.GameTool.L Application
+Google — Detected
+Lionic — Trojan.Win32.Generic.4!c
+Malwarebytes — RiskWare.GameHack
+McAfee Scanner — Ti!18EAB960E53C
+Microsoft Defender — Trojan:Win32/Wacatac.B!ml
+Rising — Hacktool.GameTool!8.11928
+Sangfor Engine Zero — Trojan.Win32.Gametool.Vkvb
+Skyhigh (SWG) — Artemis
+Sophos — Generic Reputation PUA (PUA)
+Symantec — ML.Attribute.HighConfidence
+Trellix ENS — Artemis!AB80391E69DB
+TrendMicro HouseCall — Trojan.Win64.Gen.TL0101GK26ZJ
+Varist — W64/ABTrojan.PHQT-1469
+
+Popular Threat Label: trojan.gametool/filerepmalware
+Threat Categories: Trojan, PUA (Potentially Unwanted Application), HackTool, Family Labels, GameTool, FileRepMalware
+Behavioral Characteristics: PE Executable, 64-bit, Long sleep behavior detected, Debug environment detection (anti-debugging)
+
+
+DETAILS: 
+
+Basic properties
+MD5
+ab80391e69db32cb3d606e856bfdf872
+ 
+SHA-1
+787c141f0d22d892034b9901062c95366ec44cd8
+ 
+SHA-256
+18eab960e53c3abae8dab0efc833fca7ab568bbb2fd5bc94a515b8f867b3f599
+ 
+Vhash
+027096556d156d0d151577z5lz22z1cfz
+ 
+Authentihash
+ccb9f203e6b215449ca2769720bd7a74d6e85d9619a116833632be8352b2ac85
+ 
+Imphash
+0c6b60db2386bcbbf8e51f7dca7f55bd
+ 
+SSDEEP
+196608:4GFrOBiyc7iEp2yRSAVjEiaqXFSHuEicF1x1K2hO9qEs7BOsfEMRF6+i8IhuWoZ8:nE91thPhREMRFTIhuWoK
+ 
+TLSH
+T197379F43A26634CAC0B6D67C0113A236F56AFC1DCB24C7F78AD3FD265AB27901E15B64
+ 
+File type
+Win32 EXE 
+executable
+windows
+win32
+pe
+peexe
+ 
+Magic
+PE32+ executable (GUI) x86-64, for MS Windows
+ 
+TrID
+Win64 Executable (generic) (51.9%)   OS/2 Executable (generic) (16.1%)   Generic Win/DOS Executable (15.9%)   DOS Executable (generic) (15.9%)
+ 
+DetectItEasy
+PE64   Compiler: Microsoft Visual C/C++ (16.00)   Linker: Microsoft Linker (14.0) [GUI64]
+ 
+Magika
+PEBIN
+ 
+File size
+21.76 MB (22815232 bytes)
+History
+Creation Time
+2026-07-15 11:42:02 UTC
+ 
+First Submission
+2026-07-15 14:51:41 UTC
+ 
+Last Submission
+2026-07-23 13:37:01 UTC
+ 
+Last Analysis
+2026-07-27 21:20:34 UTC
+Names
+Nature
+Launcher.exe
+Launcher (1).exe
+Non confirmé 478474.crdownload
+37586bf6-a049-4272-9d52-2831155a3782.tmp
+Launcher (3).exe
+Client.exe
+Signature info
+Signature verification
+File is not signed
+File Version Information
+Copyright
+Copyright (C) Nature
+ 
+Product
+Nature Launcher
+ 
+Description
+Launcher
+ 
+Original Name
+Launcher.exe
+ 
+Internal Name
+Nature
+ 
+File Version
+2.1.0.2
+Portable Executable Info
+Header
+Target Machine
+x64
+ 
+Compilation Timestamp
+2026-07-15 11:42:02 UTC
+ 
+Entry Point
+2342400
+ 
+Contained Sections
+9
+Sections
+Name	Virtual Address	Virtual Size	Raw Size	Entropy	MD5	Chi2
+.text	4096	2563958	2564096	5.94	4de682c120703bda32ae657925a71ee3	29128090
+.rdata	2568192	18155268	18155520	6.84	8c2882afd783e756bb77c0323b073cd4	98083808
+.data	20725760	25712	18432	3.59	67c30832cfade96741d8ddecd848646b	1774993.38
+.pdata	20754432	69204	69632	6.38	04a79b77a23b5e82449b1cce894b8805	806047.81
+.fptable	20824064	256	512	0	bf619eac0cdf3f68d496ea9344137e8b	130560
+.tls	20828160	17	512	0.02	1f354d76203061bfdd5a53dae48d5435	130049
+_RDATA	20832256	1092	1536	2.97	9ec658c7703c33c7c21e39440576d337	128805.38
+.rsrc	20836352	1997488	1997824	7.05	27db5eb3a0209130797de4959fc686ec	14482038
+.reloc	22835200	6024	6144	5.44	c2aea2d2a8f27783d13ee4612286fa38	35975.92
+Imports
+bcrypt.dll
+api-ms-win-security-sddl-l1-1-0.dll
+api-ms-win-core-toolhelp-l1-1-0.dll
+D3DCOMPILER_47.dll
+api-ms-win-core-kernel32-legacy-l1-1-2.dll
+api-ms-win-security-base-l1-1-0.dll
+api-ms-win-core-handle-l1-1-0.dll
+api-ms-win-core-com-l1-1-0.dll
+api-ms-win-core-file-l1-1-0.dll
+api-ms-win-core-synch-l1-1-0.dll
+api-ms-win-core-processthreads-l1-1-0.dll
+api-ms-win-core-kernel32-legacy-l1-1-0.dll
+api-ms-win-core-libraryloader-l1-2-0.dll
+api-ms-win-core-processenvironment-l1-1-0.dll
+api-ms-win-core-errorhandling-l1-1-0.dll
+api-ms-win-core-heap-l1-1-0.dll
+api-ms-win-ntuser-sysparams-l1-1-0.dll
+api-ms-win-core-file-l1-2-2.dll
+api-ms-win-core-heap-l2-1-0.dll
+api-ms-win-core-heap-obsolete-l1-1-0.dll
+api-ms-win-core-libraryloader-l1-2-1.dll
+api-ms-win-security-lsalookup-ansi-l2-1-0.dll
+api-ms-win-core-string-l1-1-0.dll
+api-ms-win-core-processthreads-l1-1-1.dll
+api-ms-win-core-profile-l1-1-0.dll
+api-ms-win-core-synch-l1-2-0.dll
+api-ms-win-core-memory-l1-1-0.dll
+WINHTTP.dll
+d3d11.dll
+USER32.dll
+GDI32.dll
+SHELL32.dll
+IMM32.dll
+api-ms-win-core-synch-ansi-l1-1-0.dll
+api-ms-win-core-localization-l1-2-0.dll
+api-ms-win-core-file-l1-2-0.dll
+api-ms-win-core-file-l2-1-0.dll
+api-ms-win-core-util-l1-1-0.dll
+api-ms-win-core-sysinfo-l1-1-0.dll
+api-ms-win-core-interlocked-l1-1-0.dll
+api-ms-win-core-rtlsupport-l1-1-0.dll
+api-ms-win-core-console-l1-1-0.dll
+api-ms-win-core-fibers-l1-1-0.dll
+api-ms-win-core-debug-l1-1-0.dll
+Contained Resources by Type
+RT_ICON
+12
+ 
+TTF
+3
+ 
+RT_GROUP_ICON
+2
+ 
+WAVE
+2
+ 
+PNG
+1
+ 
+RT_VERSION
+1
+ 
+RT_MANIFEST
+1
+Contained Resources by Language
+ENGLISH US
+22
+Contained Resources
+SHA-256	File Type	Type	Language	Entropy	Chi2
+0436c4c14b8a34f69141d2a667a3719a05ca9489560b8bb8fcd73055e29221ce	PNG	PNG	ENGLISH US	8	2350.31
+b34cbb71d75b84eb4925f51e050249f65fb3e3550133aba0a4c161c6820aec82	TrueType Font	TTF	ENGLISH US	5.19	1601265.5
+68f690d4d66bfe861bada25318be1c9aa54b453250d22241d0615db686cb2ee3	TrueType Font	TTF	ENGLISH US	5.93	1654388.5
+8dbeee804c249634fd860cae932f54afe759de8c17c136995fcae57c24348cf9	TrueType Font	TTF	ENGLISH US	5.71	1321642.88
+62d5d91b17587b5af7590de3a5f652b35991cbed29a106e8cd5ba84695c900ac	unknown	WAVE	ENGLISH US	4.78	1561480.5
+ec5d7b1ff87e1d7c4458ad905f8a07a806a95479c672b3ea677107e81fa8b4e2	unknown	WAVE	ENGLISH US	4.66	4439959.5
+822ad85409fb73d807d3643560ccf07b1f0f1df69cba3a17e811e1ab9156ac75	unknown	RT_ICON	ENGLISH US	5.67	6688607.5
+1a37d418b29ad10d8858204f08ca7c892ecc9e4d284d0560441540868d9f7833	unknown	RT_ICON	ENGLISH US	5.73	1601301.25
+f4ebf1b5e8c3a8b0ede54cbc74202124ee32386fcd1213184be54e7420f4b51a	unknown	RT_ICON	ENGLISH US	5.86	362558.19
+d91e0a9ee188b782416626c1b9b30baae24c77bb1ba776d2bf4694c8604d0856	unknown	RT_ICON	ENGLISH US	5.9	198702.81
+e21fd069e73f72d12f042f5665c47334155045bf9050855cbc71b6acc3adf6f3	unknown	RT_ICON	ENGLISH US	6.05	76093.16
+c02236919e5ca81acbcbc909e9f3ebbf0d8aa767897ba2914d94b7b1bb1513d9	unknown	RT_ICON	ENGLISH US	6.14	16010.83
+96fbdde38e999edbb8f22be7b4d7cf703cd1119412dd259a524d011c674df2a3	ICO	RT_GROUP_ICON	ENGLISH US	2.85	6486.35
+48b99bd54b2fd532ef2a2319f0c72506381d8bdb8eb782ced9d668aba31a9817	ICO	RT_GROUP_ICON	ENGLISH US	2.77	6543.24
+8e276f74a990f42b91141ea640850fe6ff6aaf16c58a7aadece72ef06aff0ab7	unknown	RT_VERSION	ENGLISH US	3.32	57245.26
+7af7bb769fd476f0a8c5e3e6dc9a03acb6adf476e79c3a1a9d85f3ebb73ddc6d	XML	RT_MANIFEST	ENGLISH US	4.77	4477.5
+
+
+RELATIONS: 
+
+Contacted URLs (4)
+
++-----------+--------+-----------------------------------------------+
+| Detection | Status | URL                                           |
++-----------+--------+-----------------------------------------------+
+| 4/92      | 200    | https://natureclient.com:2053/session         |
+| 3/92      | 200    | https://natureclient.com:2053/version         |
+| 3/92      | 200    | https://natureclient.com:2053/status          |
+| 0/94      | 405    | https://natureclient.com:2053/login           |
++-----------+--------+-----------------------------------------------+
+
+
+Contacted Domains (3)
+
++-----------+--------------------------------------------+------------+-----------------+
+| Detection | Domain                                     | Created    | Registrar       |
++-----------+--------------------------------------------+------------+-----------------+
+| 0/91      | a1672.dscr.akamai.net                       | 1999-03-03 | MarkMonitor Inc.|
+| 0/91      | eip-terr-na.cdp1.digicert.com.akahost.net   | 2015-12-04 | -               |
+| 3/91      | natureclient.com                           | 2026-02-04 | -               |
++-----------+--------------------------------------------+------------+-----------------+
+
+
+Contacted IP Addresses (5)
+
++-----------+----------------+---------+---------+
+| Detection | IP             | AS      | Country |
++-----------+----------------+---------+---------+
+| 1/91      | 104.21.4.53    | AS13335 | -       |
+| 1/91      | 172.67.153.230 | AS13335 | -       |
+| 0/91      | 23.11.33.159   | AS33905 | US      |
+| 0/91      | 23.195.81.59   | AS20940 | US      |
+| 0/91      | 23.195.81.73   | AS20940 | US      |
++-----------+----------------+---------+---------+
+
+
+Bundled Files (24)
+
++-----------+----------------+-----------------------------+
+| Detection | File Type      | Name                        |
++-----------+----------------+-----------------------------+
+| 0/61      | ISO image      | .fptable                    |
+| 0/60      | ICO            | .rsrc/GROUP_ICON/108        |
+| 0/60      | ELF            | .tls                        |
+| 0/58      | TrueType Font  | .rsrc/TTF/102              |
+| 0/60      | XML            | .rsrc/MANIFEST/1           |
+| 0/60      | TrueType Font  | .rsrc/TTF/103              |
+| 0/60      | ICO            | .rsrc/GROUP_ICON/IDI_APP_ICON |
+| 0/60      | TrueType Font  | .rsrc/TTF/101              |
+| N/A       | File           | .rsrc/ICON/2.ico           |
+| N/A       | File           | .rsrc/PNG/106              |
++-----------+----------------+-----------------------------+
+
+
+PE Resource Children (2)
+
++-----------+----------------+------------------------+
+| Detection | File Type      | Name                   |
++-----------+----------------+------------------------+
+| 0/58      | TrueType Font  | productsansmedium.ttf  |
+| 0/60      | TrueType Font  | productsansbold.ttf    |
++-----------+----------------+------------------------+
+
+Graph Summary: 
+4 contacted urls
+3 contacted domains
+5 contacted ips
+10+ bundled files
+2 pe resource children
+
+-----------------------------------------SUSPICIOUS PART BEGINS HERE---------------------------------------------------------------------------
+
+Mitre Signatures: 2 MEDIUM 9 LOW 5 INFO
+
+Network comms: 4 HTTP 3 DNS 2 IP 2 JA3
+Behavior Tags: detect-debug-environment long-sleeps obfuscated, MITRE ATT&CK Tactics and Techniques, Search for technique, subtechnique and in its matching entries
+
+Privilege Escalation
+TA0004
+1 Techniques
+Process Injection
+1
+T1055
+Stealth
+TA0005
+5 Techniques
+Obfuscated Files or Information
+3
+T1027
+Masquerading
+1
+T1036
+Process Injection
+1
+T1055
+Virtualization/Sandbox Evasion
+1
+T1497
+Discovery
+TA0007
+2 Techniques
+System Information Discovery
+3
+T1082
+Virtualization/Sandbox Evasion
+1
+T1497
+Command and Control
+TA0011
+2 Techniques
+Application Layer Protocol
+2
+T1071
+Encrypted Channel
+1
+T1573
+Malware Behavior Catalog Tree
+Anti-Behavioral Analysis
+OB0001
+Anti-Static Analysis
+OB0002
+Defense Evasion
+OB0006
+Discovery
+OB0007
+Privilege Escalation
+OB0013
+Communication
+OC0006
+
+
+
+
+Network Communication
+HTTP requests
+GET https://natureclient.com:2053/session 200
+GET https://natureclient.com:2053/status 200
+GET https://natureclient.com:2053/version 200
+POST https://natureclient.com:2053/login 200
+DNS Resolutions
+natureclient.com
+a1672.dscr.akamai.net
+eip-terr-na.cdp1.digicert.com.akahost.net
+IP Traffic
+TCP 104.21.4.53:2053 (natureclient.com)
+TCP 172.67.153.230:2053 (natureclient.com)
+JA3 Digests
+a0e9f5d64349fb13191bc781f81f42e1
+3c293bdf2a25c07559b560ba86debc77
+Memory Pattern Domains
+127.0.0.1:800
+a.nel.clo
+a.nel.cloudflare.com
+accounts.spotify.com
+api.spotify.com
+c.pki.goog
+creativecommons.org
+csp-reporting.cloudflare.com
+fontstruct.com
+fontstruct.comArrowUP
+fontstruct.comrYvett
+i.pki.goog
+natureclient.com
+natureclient.com:205
+natureclient.comAccess-Control-Allow-MethodsGET
+natureclient.comb
+o.pki.goog
+open.spotify.com
+
+
+Memory Pattern Urls
+http://127.0.0.1:8000/callback
+http://c.pki.goog/r/gsr1.crl0
+http://c.pki.goog/r/r4.crl0
+http://c.pki.goog/we1/UIumR6EfnvM.crl0
+http://creativecommons.org/licenses/by-nc/3.0/Five
+http://i.pki.goog/gsr1.crt0-
+http://i.pki.goog/r4.crt0
+http://i.pki.goog/we1.crt0/
+http://o.pki.goog/s/we1/C9w0%
+http://www.marksimonson.comhttp://www.marksimonson.com/info/licensesProxima
+http://www.marksimonson.comhttp://www.marksimonson.com/info/licensesSchoolbook
+https://a.nel.clo
+https://a.nel.cloudflare.com/report/v
+https://a.nel.cloudflare.com/report/v4?s=%2F%2F5O%2F6YTH7E2YeLYWkKLTXqkRarH0A5v1JqC2Xtb7gJLMtNLM49Np
+https://a.nel.cloudflare.com/report/v4?s=3u0jvZo5MyWjfxcHrrb7%2BeAWQs5wiQ9%2FFvs5MC79Ml9JTFEEEEEic9c
+https://a.nel.cloudflare.com/report/v4?s=4utwpMIzgCEMBXroGobQ424%2BqwDSn7VFo4djtVMhx5ae2npwk6Xbhrmbk
+https://a.nel.cloudflare.com/report/v4?s=6F8tlNRHZs6%2FmulOC5J6r%2BHjfD9sppcoaMnHEbI2taGoxxYs%2BUW%2
+https://a.nel.cloudflare.com/report/v4?s=Ao6ZZsGK2H%2B%2Fj2eQVAZ3adFPEtgchQkDTgLDxlJ2XqC54cmBnYRzzJ1
+https://a.nel.cloudflare.com/report/v4?s=DTVT%2BvFfaqt%2BVmPyJLiZmDl1Xi9FMcYq22Zl34uw20rP6YRPiFFQZVH
+https://a.nel.cloudflare.com/report/v4?s=Dnjwb1hSHRLPYn7BWg5CPEKZ8bCM44jlxBsORwCwHW68fPPgQHYUq1f4h%2
+https://a.nel.cloudflare.com/report/v4?s=DxeK7PBkIvtb75DA5ffaL7aKmLVgN7zqT9FxS%2B4yZ6RsfVutMlNhHLgLs
+https://a.nel.cloudflare.com/report/v4?s=KfGttuUarVHQp1llRLoT1x98N9RBeOIrP2A5sujcfBIkJUqbgp5jFj%2BAz
+https://a.nel.cloudflare.com/report/v4?s=KrtDaK5fXneVeF4e4hCBpvM1T3wUiHv%2FqXX7bs%2B9%2F0G3ruwAc2FFC
+https://a.nel.cloudflare.com/report/v4?s=KrzkhBIeCx8RiG245rFH5sfyToPrpShHUn%2BGe1Ou4LjxOjoJDnEd24cry
+https://a.nel.cloudflare.com/report/v4?s=MRNyI0nUBi349LWqKy70PWbtYsPOdfmkwg4tfa9HxkmdGkMxOaAkrBfWma6
+https://a.nel.cloudflare.com/report/v4?s=P3jNInSg2KctfU6x7BhuJQQnKFSSezTNMGm0Un2Q0Tn%2B6PdobqIa1oKaU
+https://a.nel.cloudflare.com/report/v4?s=PIMAq2p0DnXYPDBvnFE5B4xDskI9uwz7OYEWydv5dL4A4%2Bzbd4AALjlJF
+https://a.nel.cloudflare.com/report/v4?s=Q3WhiZPUlw4ZGW9eCzX%2FmVbSOl9hHf4OiWhTEp1E4htSOaaInKjfnd%2F
+https://a.nel.cloudflare.com/report/v4?s=SmO004cEYSIipB%2FzXG5yXv1c
+https://a.nel.cloudflare.com/report/v4?s=WBqI27MA1TIjGDg1V2tP%2BLK9sLvHHMLuDlvfSYlePXnz6xtvDxiyzSo6q
+https://a.nel.cloudflare.com/report/v4?s=a%2Bf%2BEtfOtrDpQ7xXe4yxTu8Qu%2BwMyamoMPhLQ%2BgnVvQxcK5a9JT
+https://a.nel.cloudflare.com/report/v4?s=dn0d57r%2BEe7pQ4ADVajsf2Z7hUSOhsEecClHNDhfdiaUAQc5PKrzV8KfY
+https://a.nel.cloudflare.com/report/v4?s=isSimgEFPDQn%2FyBsRS43mi8wO0tbM%2B%2FpsiLRxnWrb5JC91FzGYnjm
+https://a.nel.cloudflare.com/report/v4?s=k1Bd8Aux42q%2F3U%2Fn3O9%2B0%2FrooFcjWi%2F8Tsj8gHAJ1B%2F%2Bl
+https://a.nel.cloudflare.com/report/v4?s=kTRbMO959iIjV2PmO%2BDk%2BZnNeuytt42UCsE%2BufPL0%2B%2FZdx2w7
+https://a.nel.cloudflare.com/report/v4?s=maC5l1TTshxJCEb2RtrSg77JJuf1kc5%2BpHfHkzmt%2BXifGw5r1mlnFvQ
+https://a.nel.cloudflare.com/report/v4?s=qr0BT80wCEJXBhQREyGdIHK%2F%2F4EGwlCm7crGCwfrWoi6bH54NGU%2Bc
+https://a.nel.cloudflare.com/report/v4?s=qwtFlaqwfNkYhZ3FzGlciCc6MQEhu1L3Gs%2BopNUpWQg68WQ%2B3dQK9JH
+https://a.nel.cloudflare.com/report/v4?s=qyhqX%2Bum3XaXVkynTbnM3KuHBulij0k9KB0o%2FZ%2F0w8DTttp87IvwU
+https://a.nel.cloudflare.com/report/v4?s=vcmLWjneJ3Bk%2BhdVLddo1xvpdZdYlehWNdq32N02UZpE6NxqQG6fLUahK
+https://a.nel.cloudflare.com/report/v4?s=wGcCEKl54kGikPK%2Fu6mAw9Ykwni9XY88r%2BEuaZx4MS%2BbKer1Yl6mN
+https://a.nel.cloudflare.com/report/v4?s=ztFz2wP4uLldQ8Pi2I7l5EDLhtJrVPbbz%2FGN5EOpHDzq8V22Vtr2Sn70Y
+https://accounts.spotify.com/api/token
+https://accounts.spotify.com/authorize?response_type=code&client_id=
+https://api.spotify.com/v1/me
+https://api.spotify.com/v1/me/player/currently-playing
+https://csp-reporting.cloudflare.com/cdn-cgi/script_monitor/report?m=AUtGWyvqm5Qkf9QcWzLs9zzLu7O_KJv
+https://csp-reporting.cloudflare.com/cdn-cgi/script_monitor/report?m=y_DWdpOpOnrg_OmT.GlUAyC10xBbD3S
+https://fontstruct.com/fontstructions/show/1423152/mineglyph-faithfulhttps://fontstruct.com/fontstru
+https://fontstruct.com/fontstructors/show/1463562/spiffykids)https://fontstruct.com/fontstructions/s
+https://fontstruct.comArrowUP
+https://fontstruct.comrYvett
+https://natureclient.com
+https://natureclient.com/json
+https://natureclient.com:2053/
+https://natureclient.com:2053/0
+https://natureclient.com:2053/4a
+https://natureclient.com:2053/5?
+https://natureclient.com:2053/6PRO
+https://natureclient.com:2053/;
+https://natureclient.com:2053/DbtItV1x
+https://natureclient.com:2053/FiM2FiYz
+https://natureclient.com:2053/FiM2FiYzM
+https://natureclient.com:2053/FiM2FiYzY
+https://natureclient.com:2053/OID
+https://natureclient.com:2053/YjA2ZW&
+https://natureclient.com:2053/YzYjA2ZW?
+https://natureclient.com:2053/a06
+https://natureclient.com:2053/a0YjA2ZW
+https://natureclient.com:2053/a4#
+https://natureclient.com:2053/a4gin
+https://natureclient.com:2053/a4p
+https://natureclient.com:2053/dEksERt
+https://natureclient.com:2053/gin
+https://natureclient.com:2053/j
+https://natureclient.com:2053/kxZWQxNW
+https://natureclient.com:2053/login
+https://natureclient.com:2053/loginvc:
+https://natureclient.com:2053/ogin
+https://natureclient.com:2053/ogin5kL
+https://natureclient.com:2053/oginqk
+https://natureclient.com:2053/p
+https://natureclient.com:2053/session
+https://natureclient.com:2053/sessionG
+https://natureclient.com:2053/sessionS
+https://natureclient.com:2053/status
+https://natureclient.com:2053/status9
+https://natureclient.com:2053/status=
+https://natureclient.com:2053/statusQt
+https://natureclient.com:2053/statusT
+https://natureclient.com:2053/statusdll
+https://natureclient.com:2053/statusnCa0qA1o9OlQGa
+https://natureclient.com:2053/version
+https://natureclient.com:2053/version://natur
+https://natureclient.com:2053/versionCach
+https://natureclient.com:2053/versiontions:
+https://natureclient.comAccess-Control-Allow-MethodsGET
+https://natureclient.comb
+https://open.spotify.com/track/
+TLS
+SNI: natureclient.com
+
+
+
+File system actions
+Files opened
+C:\Users\<USER>\AppData\Roaming\Nature
+C:\Users\<USER>\Desktop\CoreMessaging.dll
+C:\Users\<USER>\Desktop\CoreUIComponents.dll
+C:\Users\<USER>\Desktop\DPAPI.DLL
+C:\Users\<USER>\Desktop\Launcher.exe
+C:\Users\<USER>\Desktop\ncrypt.dll
+C:\????\bin\bin\release
+C:\Swd6\CH\Launcher
+C:\Users\ ????? ??\launcher
+C:\Users\5Shen\Launcher
+C:\Users\??3\launcher
+C:\Users\????\ ?
+C:\Users\????\??
+C:\Users\????\????
+C:\Users\????\????:????
+C:\Users\????\??Q?
+C:\Users\???\Final_Release
+C:\Users\???\launch
+C:\Users\??\??
+C:\Users\??\Launcher
+C:\Users\??\launcher
+C:\Users\FHDT\Launcher
+C:\Users\MechWarrior Online\Bin32
+C:\Users\Nether\Launcher
+C:\Users\ShuiHuWuShuang\Launcher
+C:\Users\Wangyou\BaDao
+C:\Users\ZuOnline\launcher
+C:\Users\bishopinternal\launcher
+C:\Users\icarus\bin32
+C:\Users\total war rome II\launcher
+C:\Users\user\ ???? ??????????V0.15.6
+C:\Users\user\??
+C:\Users\user\??2
+C:\Users\user\???
+C:\Users\user\????
+C:\Users\user\????-?????
+C:\Users\user\????2
+C:\Users\user\????3
+C:\Users\user\?????
+C:\Users\user\????????
+C:\Users\user\????II???
+C:\Users\user\????OL
+C:\Users\user\????Online
+C:\Users\user\???OL
+C:\Users\user\Binaries\SpitfireGame.exe
+C:\Users\user\Dark Void
+C:\Users\user\Desktop\300.exe
+C:\Users\user\Desktop\9ct.exe
+C:\Users\user\Desktop\??.exe
+C:\Users\user\Desktop\??.txt
+C:\Users\user\Desktop\????.txt
+C:\Users\user\Desktop\AoK HD.exe
+C:\Users\user\Desktop\Binaries\FMZGame.exe
+C:\Users\user\Desktop\Binaries\TJGame.exe
+C:\Users\user\Desktop\Binaries\Win32\MMOGame-Win32-Shipping.exe
+C:\Users\user\Desktop\CW.EXE
+C:\Users\user\Desktop\CivilizationBE_DX11.exe
+C:\Users\user\Desktop\CivilizationV_DX11.exe
+C:\Users\user\Desktop\Client\HolyKing.exe
+C:\Users\user\Desktop\Config\holyking.cfg
+C:\Users\user\Desktop\DATA\SCENEOBJS\cj\jz\taijie01_jz.dds
+C:\Users\user\Desktop\DarkLight.exe
+C:\Users\user\Desktop\Data\Helper\Images\Gamephoto\JieMianJieShao-YouShangKuang.jpg
+C:\Users\user\Desktop\EdgeofSpace.exe
+C:\Users\user\Desktop\Eloa.ini
+C:\Users\user\Desktop\FaceRig.exe
+C:\Users\user\Desktop\FinalFire.dll
+C:\Users\user\Desktop\Freestyle2.exe
+C:\Users\user\Desktop\GameSkeleton.dll
+C:\Users\user\Desktop\Game\PDC-Live\GhostReconPhantoms.exe
+C:\Users\user\Desktop\Hero.exe
+C:\Users\user\Desktop\JXCQ_Data\Managed\mscorlib.dll
+C:\Users\user\Desktop\Launcher.exe
+C:\Users\user\Desktop\LuaCompiler.exe
+C:\Users\user\Desktop\RE5DX9.exe
+C:\Users\user\Desktop\Res\UnPack\Sou\mv\wuxianshijie.ogg
+C:\Users\user\Desktop\SDClient.exe
+C:\Users\user\Desktop\SWTORLaunch.dll
+C:\Users\user\Desktop\TwelveSKY.exe
+C:\Users\user\Desktop\TwelveSky2.exe
+C:\Users\user\Desktop\UserSetting\300004256_1.ini
+C:\Users\user\Desktop\Valkyria.exe
+C:\Users\user\Desktop\aamfp.exe
+C:\Users\user\Desktop\aces.exe
+C:\Users\user\Desktop\acess.exe
+C:\Users\user\Desktop\aomx.exe
+C:\Users\user\Desktop\asn_app_pcdx9_final.exe
+C:\Users\user\Desktop\bh5dx10.exe
+C:\Users\user\Desktop\bin\GAMClient.exe
+C:\Users\user\Desktop\bin\InfinityHero.exe
+C:\Users\user\Desktop\bin\JPClient.exe
+C:\Users\user\Desktop\bin\ThirdSword.exe
+C:\Users\user\Desktop\bin\Wuhun.dll
+C:\Users\user\Desktop\bin\dekaron.exe
+C:\Users\user\Desktop\bin\fumo.exe
+C:\Users\user\Desktop\bin\imageformats\qgif4.dll
+C:\Users\user\Desktop\bin\jiangxingjue.exe
+C:\Users\user\Desktop\bin\lybnsClient.exe
+C:\Users\user\Desktop\bin\release\XHOnLine.exe
+C:\Users\user\Desktop\bin\xysafe.dll
+C:\Users\user\Desktop\borderlandspresequel.exe
+C:\Users\user\Desktop\cod23.txt
+C:\Users\user\Desktop\codgame.txt
+C:\Users\user\Desktop\cssh.exe
+C:\Users\user\Desktop\cursor\sword.ani
+C:\Users\user\Desktop\dancehero.bin.exe
+C:\Users\user\Desktop\data\UI\dungeon\Dungeon_000.dds
+C:\Users\user\Desktop\data\levels_maps_mountain_serpantin.pak
+C:\Users\user\Desktop\engine\binaries\win32\hyxd.exe
+C:\Users\user\Desktop\engine\binaries\win64\hyxd.exe
+C:\Users\user\Desktop\fmo.exe
+C:\Users\user\Desktop\game\eu\yo_cm_client.exe
+C:\Users\user\Desktop\genshin impact game\genshinimpact.exe                           # -------- LOOKS FOR DIFFERENT GAMES (sus) ---------------
+C:\Users\user\Desktop\hamilton.exe
+C:\Users\user\Desktop\hr.Win32.exe
+C:\Users\user\Desktop\launchergdf.dll
+C:\Users\user\Desktop\model\SA\BF0_TOWER_ID\SA_bf_tower_id\SA_bf_tower_id_BU_buildingdi_A.col
+C:\Users\user\Desktop\panzercorps2.exe
+C:\Users\user\Desktop\program\bin\Release\BwClient.exe
+C:\Users\user\Desktop\release_game\xiangame.exe
+C:\Users\user\Desktop\res\???????????.url
+C:\Users\user\Desktop\resource\KNGJIANMASK.bmp
+C:\Users\user\Desktop\resource\common\client.ocx.exe
+C:\Users\user\Desktop\retail\hitman3.exe
+C:\Users\user\Desktop\sonic.exe
+C:\Users\user\Desktop\superposition.ico
+C:\Users\user\Desktop\swd6e.ico
+C:\Users\user\Desktop\ui\BNSClient.swf
+C:\Users\user\Desktop\vermintide.exe
+C:\Users\user\Desktop\warhammer.exe
+C:\Users\user\Desktop\xunlongzhanji.exe
+C:\Users\user\Desktop\xxsj.exe
+C:\Users\user\Earthrise
+C:\Users\user\FYOnline
+C:\Users\user\GundamLauncher
+C:\Users\user\Honghuang
+C:\Users\user\NTI Media Maker 9
+C:\Users\user\PGGame\MapData\ChangYang_Hill.dmap
+C:\Users\user\PetKingdom
+C:\Users\user\QiShan
+C:\Users\user\Qin
+C:\Users\user\SuddenAttackSEA
+C:\Users\user\Tianguo
+C:\Users\user\Virtua Tennis 4
+C:\Users\user\XW Online
+C:\Users\user\XXJH
+C:\Users\user\XYXM
+C:\Users\user\Zhen Sanguowushuang Online Sc
+C:\Users\user\binaries\win64\cfhd-thetenthzone.exe
+C:\Users\user\bzzj
+C:\Users\user\cabal.exe
+C:\Users\user\gulongheroesonline.exe
+C:\Users\user\hilife
+C:\Users\user\hshield\ahnrpt.exe
+C:\Users\user\icarus_x64.reg
+C:\Users\user\lgz
+C:\Users\user\lhonline
+C:\Users\user\lionheart - king's crusade
+C:\Users\user\mafia ii definitive edition.exe
+C:\Users\user\mhwq
+C:\Users\user\redist
+C:\Users\user\slimclient
+C:\Users\user\sm
+C:\Users\user\sqsj
+C:\Users\user\thrones.exe
+C:\Users\user\wulin
+C:\Users\user\zs
+C:\Users\user\ztj
+C:\Users\xcom-chimera-squad\launcher
+C:\Windows\AppPatch\sysmain.sdb
+C:\Windows\Globalization\Sorting\sortdefault.nls
+C:\Windows\SYSTEM32\AUDIOSES.DLL
+C:\Windows\SYSTEM32\CRYPTBASE.DLL
+C:\Windows\SYSTEM32\CRYPTSP.dll
+C:\Windows\SYSTEM32\CoreMessaging.dll
+C:\Windows\SYSTEM32\D3DCOMPILER_47.dll
+C:\Windows\SYSTEM32\DNSAPI.dll
+C:\Windows\SYSTEM32\DPAPI.DLL
+C:\Windows\SYSTEM32\IPHLPAPI.DLL
+C:\Windows\SYSTEM32\MSASN1.dll
+C:\Windows\SYSTEM32\NTASN1.dll
+C:\Windows\SYSTEM32\SspiCli.dll
+C:\Windows\SYSTEM32\UMPDC.dll
+C:\Windows\SYSTEM32\WINHTTP.dll
+C:\Windows\SYSTEM32\WINNSI.DLL
+C:\Windows\SYSTEM32\apphelp.dll
+C:\Windows\SYSTEM32\avrt.dll
+C:\Windows\SYSTEM32\bcrypt.dll
+C:\Windows\SYSTEM32\cfgmgr32.dll
+C:\Windows\SYSTEM32\d3d10warp.dll
+C:\Windows\SYSTEM32\d3d11.dll
+C:\Windows\SYSTEM32\directxdatabasehelper.dll
+C:\Windows\SYSTEM32\dwmapi.dll
+C:\Windows\SYSTEM32\dxcore.dll
+C:\Windows\SYSTEM32\dxgi.dll
+C:\Windows\SYSTEM32\en-US\winnlsres.dll.mui
+C:\Windows\SYSTEM32\inputhost.dll
+C:\Windows\SYSTEM32\kernel.appcore.dll
+C:\Windows\SYSTEM32\ncrypt.dll
+C:\Windows\SYSTEM32\ntdll.dll
+C:\Windows\SYSTEM32\powrprof.dll
+C:\Windows\SYSTEM32\resourcepolicyclient.dll
+C:\Windows\SYSTEM32\textinputframework.dll
+C:\Windows\SYSTEM32\webio.dll
+C:\Windows\SYSTEM32\winnlsres.dll
+C:\Windows\SYSTEM32\xinput1_4.dll
+Files written
+C:\Users\user\AppData\Roaming\Nature
+Registry actions
+Registry keys opened
+HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\7b\52C64B7E
+HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\7b\52C64B7E\@%SystemRoot%\System32\ci.dll,-100
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography\OID\EncodingType 0
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography\OID\EncodingType 0\CryptDllFindOIDInfo
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography\OID\EncodingType 0\CryptDllFindOIDInfo\1.3.6.1.4.1.311.10.3.37!7
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography\OID\EncodingType 0\CryptDllFindOIDInfo\1.3.6.1.4.1.311.10.3.37!7\Name
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography\OID\EncodingType 0\CryptDllFindOIDInfo\1.3.6.1.4.1.311.10.3.42!7
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\MUI\StringCacheSettings\StringCacheGeneration
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\SecurityProviders\SCHANNEL\UserContextListCount
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\SecurityProviders\SCHANNEL\UserContextLockCount
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\AdapterTimeoutLimit
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\AddrConfigControl
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\AllowUnqualifiedQuery
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\AppendToMultiLabelName
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\CacheAllCompartments
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\DirectAccessPreferLocal
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\DirectAccessQueryOrder
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\DisableCoalescing
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\DisableIdnEncoding
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\DisableNRPTForAdapterRegistration
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\DisableParallelAandAAAA
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\DisableServerUnreachability
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\DisableSmartNameResolution
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\DisableSmartProtocolReordering
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\DnsQueryTimeouts
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\DnsQuickQueryTimeouts
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\DnsSecureNameQueryFallback
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\DnsTest
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\DomainNameDevolutionLevel
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\DowncaseSpnCauseApiOwnerIsTooLazy
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\DynamicServerQueryOrder
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\EnableDAForAllNetworks
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\EnableIdnMapping
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\EnableMDNS
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\EnableMultiHomedRouteConflicts
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\EnableMulticast
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\FilterClusterIp
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\FilterVPNTrigger
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\ForceQueriesOverTcp
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\MaxCacheSize
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\MaxCacheTtl
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\MaxCachedSockets
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\MaxNegativeCacheTtl
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\MulticastResponderFlags
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\MulticastSenderFlags
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\MulticastSenderMaxTimeout
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\NewDhcpSrvRegistration
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\PreferLocalOverLowerBindingDNS
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\PrioritizeRecordData
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\QueryAdapterName
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\QueryIpMatching
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\QueryNetBTFQDN
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\RegisterAdapterName
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\RegisterPrimaryName
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\RegisterReverseLookup
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\RegisterWanAdapters
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\RegistrationEnabled
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\RegistrationMaxAddressCount
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\RegistrationOverwrite
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\RegistrationRefreshInterval
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\RegistrationTtl
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\ResolverRegistration
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\ResolverRegistrationOnly
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\ScreenBadTlds
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\ScreenDefaultServers
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\ScreenUnreachableServers
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\ServerPriorityTimeLimit
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\ShareTcpConnections
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\ShortnameProxyDefault
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\TestMode_AdaptiveTimeoutHistoryLength
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\TestMode_AdaptiveTimeoutRecalculationInterval
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\UdpRecvBufferSize
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\UpdateSecurityLevel
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\UpdateTopLevelDomainZones
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\UseCompartments
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\UseDomainNameDevolution
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\UseEdns
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\UseHostsFile
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\UseNewRegistration
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Dnscache\Parameters\WaitForNameErrorOnAll
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Tcpip\Parameters\AllowUnqualifiedQuery
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Tcpip\Parameters\DefaultRegistrationRefreshInterval
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Tcpip\Parameters\DefaultRegistrationTTL
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Tcpip\Parameters\DisableAdapterDomainName
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Tcpip\Parameters\DisableDynamicUpdate
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Tcpip\Parameters\DisableReverseAddressRegistrations
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Tcpip\Parameters\DisableWanDynamicUpdate
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Tcpip\Parameters\DnsQueryTimeouts
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Tcpip\Parameters\DnsQuickQueryTimeouts
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Tcpip\Parameters\Domain
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Tcpip\Parameters\EnableAdapterDomainNameRegistration
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Tcpip\Parameters\Hostname
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Tcpip\Parameters\MaxNumberOfAddressesToRegister
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Tcpip\Parameters\PrioritizeRecordData
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Tcpip\Parameters\UpdateSecurityLevel
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Tcpip\Parameters\UseDomainNameDevolution
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\WinSock2\Parameters\AutodialDLL
+HKEY_LOCAL_MACHINE\Software\Microsoft\Cryptography\OID
+HKEY_LOCAL_MACHINE\Software\Microsoft\Cryptography\OID\EncodingType 0\CryptDllFindOIDInfo\1.3.6.1.4.1.311.10.3.37!7
+HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\System\DNSClient
+HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows NT\DnsClient
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize
+HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\32\52C64B7E
+HKEY_CURRENT_USER\Software\Microsoft\Direct3D
+HKEY_CURRENT_USER\Software\Microsoft\Direct3D\Direct3D12
+HKEY_CURRENT_USER\Software\Microsoft\DirectX\UserGpuPreferences
+HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags
+HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders
+HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings
+HKEY_LOCAL_MACHINE\OSDATA\Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{BCDE0395-E52F-467C-8E3D-C4579291692E}
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{BCDE0395-E52F-467C-8E3D-C4579291692E}\Elevation        # YE OK                                
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{BCDE0395-E52F-467C-8E3D-C4579291692E}\InprocHandler
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{BCDE0395-E52F-467C-8E3D-C4579291692E}\InprocHandler32
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{BCDE0395-E52F-467C-8E3D-C4579291692E}\InprocServer32
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{BCDE0395-E52F-467C-8E3D-C4579291692E}\LocalServer
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{BCDE0395-E52F-467C-8E3D-C4579291692E}\LocalServer32
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{BCDE0395-E52F-467C-8E3D-C4579291692E}\TreatAs
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\AppModel\Lookaside\machine
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\AppModel\Lookaside\user
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\CTF\
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\CTF\Compatibility\Launcher.exe
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\OLE
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\OLEAUT
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Containers
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\Launcher.exe
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\msasn1
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\Connections
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\PolicyExtensions
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\PolicyExtensions\TenantRestrictionsPlugin.dll
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\WinHttp
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Render\{23671bc7-1a03-44fa-ba59-7c99e25e7e40}
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Render\{23671bc7-1a03-44fa-ba59-7c99e25e7e40}\Properties
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\OOBE
+HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows
+HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\TenantRestrictions\Payload
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\DevQuery\1
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\DevQuery\10
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\DevQuery\11
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\DevQuery\2
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\DevQuery\3
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\DevQuery\4
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\DevQuery\5
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\DevQuery\6
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\DevQuery\7
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\DevQuery\8
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\DevQuery\9
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Lsa\SspiCache\credssp.dll
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Winsock\Setup Migration\Providers\Tcpip
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Winsock\Setup Migration\Providers\Tcpip6
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Cryptography\ECCParameters
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\DevQuery
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MUI\StringCacheSettings
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Segment Heap
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Policies\Microsoft\Cryptography\Configuration
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters\dnscache
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Winsock\Parameters
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Winsock\Setup Migration\Providers
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\crypt32
+HKEY_LOCAL_MACHINE\Software\Classes
+HKEY_LOCAL_MACHINE\Software\Microsoft\COM3
+HKEY_LOCAL_MACHINE\Software\Microsoft\Cryptography\OID\EncodingType 0\CertDllCreateCertificateChainEngine\Config
+HKEY_LOCAL_MACHINE\Software\Microsoft\Cryptography\OID\EncodingType 0\CryptDllFindOIDInfo\1.3.6.1.4.1.311.10.3.42!7
+HKEY_LOCAL_MACHINE\Software\Microsoft\Cryptography\OID\EncodingType 0\CryptDllFindOIDInfo\1.3.6.1.4.1.311.64.1.1!7
+HKEY_LOCAL_MACHINE\Software\Microsoft\Cryptography\OID\EncodingType 0\CryptDllFindOIDInfo\1.3.6.1.4.1.311.67.1.1!7
+HKEY_LOCAL_MACHINE\Software\Microsoft\Cryptography\OID\EncodingType 0\CryptDllFindOIDInfo\1.3.6.1.4.1.311.67.1.2!7
+HKEY_LOCAL_MACHINE\Software\Microsoft\Cryptography\OID\EncodingType 0\CryptDllFindOIDInfo\1.3.6.1.4.1.311.76.6.1!7
+HKEY_LOCAL_MACHINE\Software\Microsoft\Cryptography\OID\EncodingType 0\CryptDllFindOIDInfo\1.3.6.1.4.1.311.80.1!7
+HKEY_LOCAL_MACHINE\Software\Microsoft\Cryptography\OID\EncodingType 0\CryptDllFindOIDInfo\1.3.6.1.4.1.311.92.1.1!7
+HKEY_LOCAL_MACHINE\Software\Microsoft\Direct3D
+HKEY_LOCAL_MACHINE\Software\Microsoft\Direct3D\Direct3D12
+HKEY_LOCAL_MACHINE\Software\Microsoft\LanguageOverlay\OverlayPackages\en-US
+HKEY_LOCAL_MACHINE\Software\Microsoft\OLE
+HKEY_LOCAL_MACHINE\Software\Microsoft\OLE\Tracing
+HKEY_LOCAL_MACHINE\Software\Microsoft\Ole
+HKEY_LOCAL_MACHINE\Software\Microsoft\Ole\FeatureDevelopmentProperties
+HKEY_LOCAL_MACHINE\Software\Microsoft\Rpc
+HKEY_LOCAL_MACHINE\Software\Microsoft\Rpc\Extensions
+HKEY_LOCAL_MACHINE\Software\Microsoft\SecurityManager\TransientObjects\%5C%5C.%5CAlpcPort%5CInput%5CCore.AlpcPort%5CServer
+HKEY_LOCAL_MACHINE\Software\Microsoft\SecurityManager\TransientObjects\%5C%5C.%5CRpc%5CAllowLpacAppExperience%5CInterface
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Custom\Launcher.exe
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Custom\explorer.exe
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\SdbUpdates
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\SdbUpdates\ManifestedMergeStubSdbs
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\GRE_Initialize
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\PeerDist\Service
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Audio
+HKEY_LOCAL_MACHINE\Software\Microsoft\windows\CurrentVersion\Internet Settings
+HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Internet Explorer\Main
+HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\MUI\Settings
+HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\PeerDist\Service
+HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\SystemCertificates\AuthRoot
+HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\SystemCertificates\CA
+HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\SystemCertificates\Root
+HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\SystemCertificates\Root\ProtectedRoots
+HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows NT\Rpc
+HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings
+HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\Display
+HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\Safer\CodeIdentifiers
+HKEY_LOCAL_MACHINE\System\Setup
+\REGISTRY\USER
+Process and service actions
+Processes created
+"C:\Users\<USER>\Desktop\Launcher.exe"
+"C:\Users\user\Desktop\Launcher.exe"
+Services opened
+AudioSrv
+Processes tree
+2824 - "C:\Users\<USER>\Desktop\Launcher.exe"
+6080 - "C:\Users\user\Desktop\Launcher.exe"
+Synchronization mechanisms & Signals
+Mutexes created
+Global\Nature-Launcher
+\Sessions\1\BaseNamedObjects\Global\Nature-Launcher
+
+
+
+2. CAPE SANDBOX   (Attempts to query display device information)
+
+------------- CAPE SANDBOX -----------------
+
+MITRE ATT&CK
+Discovery	Command and Control	Defense Evasion	Privilege Escalation
+T1082 - System Information Discovery
+antivm_display
+hardware_id_profiling
+T1071 - Application Layer Protocol
+antisandbox_sleep
+network_http
+dead_connect
+T1573 - Encrypted Channel
+network_cnc_https_generic
+T1055 - Process Injection
+antianalysis_tls_section
+T1027 - Obfuscated Files or Information
+packer_unknown_pe_section_name
+packer_entropy
+pe_deep_entrypoint
+T1027.002 - Software Packing
+packer_unknown_pe_section_name
+packer_entropy
+T1055 - Process Injection
+antianalysis_tls_section
+CAPA Analysis Summary
+Capabilities:
+executable/pe/section/tls
+File Details
+Filename	
+Launcher.exe
+File Type	PE32+ executable (GUI) x86-64, for MS Windows
+File Size	22815232 bytes
+MD5	ab80391e69db32cb3d606e856bfdf872
+SHA1	787c141f0d22d892034b9901062c95366ec44cd8
+SHA256	18eab960e53c3abae8dab0efc833fca7ab568bbb2fd5bc94a515b8f867b3f599 [VT] [MWDB] [Bazaar]
+SHA3-384	57fb5961584fb5e0a403014f372334f0fee1ee5bc9ed45298fdfc0d85bb5e81938c5739bcb29348151e2f4eeab2bf902
+CRC32	E566B583
+TLSH	T197379F43A26634CAC0B6D67C0113A236F56AFC1DCB24C7F78AD3FD265AB27901E15B64
+Ssdeep	196608:4GFrOBiyc7iEp2yRSAVjEiaqXFSHuEicF1x1K2hO9qEs7BOsfEMRF6+i8IhuWoZ8:nE91thPhREMRFTIhuWoK
+Signatures
+Attempts to connect to a dead IP:Port (1 unique times)
+Queries the keyboard layout
+SetUnhandledExceptionFilter detected (possible anti-debug)
+A process attempted to delay the analysis task.
+Establishes an encrypted HTTPS connection
+Contains .tls (Thread Local Storage) section
+Performs some HTTP requests
+The PE entry point is located unusually far into section, indicative of an appended packer stub that jumps to the original entry point (OEP)
+The binary contains an unknown PE section name indicative of packing
+The binary likely contains encrypted or compressed data
+Queries the Volume Serial Number or Physical Hardware ID, possibly for anti-sandbox, victim profiling or environmental keying
+Attempts to query display device information, possibly to determine if the process is running in a virtualized environment
+
+ Summary
+ Accessed Files
+ Read Registry Keys
+ Mutexes
+C:\Windows\System32\en-US\mswsock.dll.mui
+C:\Windows\System32\en-US\wshqos.dll.mui
+C:\Users\Bruno\Desktop\ncrypt.dll
+C:\Windows\System32\ncrypt.dll
+C:\Windows\System32\ci.dll
+C:\Windows\System32\dnsapi.dll
+C:\Windows\System32\fveui.dll
+C:\Windows\System32\wuaueng.dll
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+C:\Windows\System32\NgcRecovery.dll
+C:\Windows\System32\en-US\CRYPT32.dll.mui
+C:\Users\Bruno\Desktop\DPAPI.DLL
+C:\Windows\System32\dpapi.dll
+C:\
+C:\Users\Bruno\AppData\Roaming\Nature
+\Device\DeviceApi\Dev\Query
+C:\Windows\System32\resourcepolicyclient.dll
+C:\Windows\System32\en-US\MMDevApi.dll.mui
+\Device\DeviceApi\CMNotify
+C:\Users\Bruno\Desktop\Launcher.exe
+C:\Windows\System32\DXCore.dll
+C:\Windows\System32\d3d10warp.dll
+C:\Windows\System32\textinputframework.dll
+
+
+
+3. Zenbox: 
+------------------------------------ ZENBOX REPORT (1/100 ??????) ------------------------------
+
+Overview
+Zenbox Verdict
+1/100
+Non Malicious
+Report generated:
+15/07/2026 15:22:37
+Guest System:
+Windows 11 Ultimate
+File Info
+File name:
+Launcher.exe
+File type:
+PE32+ executable (GUI) x86-64, for MS Windows
+File size:
+21.76 MB
+SHA256:
+18eab960e53c3abae8dab0efc833fca7ab568bbb2fd5bc94a515b8f867b3f599
+SHA1:
+787c141f0d22d892034b9901062c95366ec44cd8
+MD5:
+ab80391e69db32cb3d606e856bfdf872
+SHA512:
+bb18f353f1ed8d592df227e391f6247d8b3e091ae0d8c967318b087dde59f45f05dc630f3f4f5d15f7ba8c916f27ab051847d0e6bba9143f17c4eb346a37fc6a
+Entropy:
+6.877795622897253
+Submission path:
+C:\Users\user\desktop\
+SSDEEP:
+196608:4GFrOBiyc7iEp2yRSAVjEiaqXFSHuEicF1x1K2hO9qEs7BOsfEMRF6+i8IhuWoZ8:nE91thPhREMRFTIhuWoK
+Preview:
+MZx.....................@...................................x...........!..L.!This program cannot be run in DOS mode.$..PE..d....rWj.........."...... '...4.......#........@..............................\...........`........................................
+Indicators
+System Summary (15)
+0.0
+PE file has an executable .text section and no other executable section
+0.0
+Reads software policies
+0.0
+Tries to load missing DLLs
+0.0
+Uses an in-process (OLE) Automation server
+0.0
+Creates mutexes
+0.0
+Creates files inside the user directory
+0.0
+Sample might require command line arguments
+0.0
+Classification label
+-0.77
+PE file contains a valid data directory to section mapping
+-0.91
+Contains modern PE file flags such as dynamic base (ASLR) or NX
+-0.97
+PE file has a big raw section
+-1.0
+Submission file is bigger than most known malware samples
+-1.0
+PE file has a big code size
+-1.0
+PE file has a high image base, often used for DLLs
+-5.0
+Tries to open an application configuration file (.cfg)
+Data Obfuscation (1)
+1.0
+PE file contains sections with non-standard names
+Hooking and other Techniques for Hiding and Protection (1)
+0.0
+Disables application error messsages (SetErrorMode)
+Malware Analysis System Evasion (2)
+1.0
+May sleep (evasive loops) to hinder dynamic analysis
+0.0
+May try to detect the virtual machine to hinder analysis (VM artifact strings found in memory)
+Language, Device and Operating System Detection (1)
+1.0
+Queries the volume information (name, serial number etc) of a device
+Networking (2)
+0.0
+URLs found in memory or binary data
+0.0
+Performs DNS lookups
+Analysis Advice (3)
+0.0
+Sample has a GUI, but Joe Sandbox has not found any clickable buttons, likely more UI automation may extend behavior
+0.0
+Sample tries to load a library which is not present or installed on the analysis machine, adding the library might reveal more behavior
+0.0
+Sample may offer command line options, please run it with the 'Execute binary with arguments' cookbook (it's possible that the command line switches require additional characters like: "-", "/", "--")
+Compliance (1)
+-0.91
+Contains modern PE file flags such as dynamic base (ASLR) or NX
+Mitre Attack
+Execution
+T1059 Command and Scripting Interpreter confidence: low
+Persistence
+T1574.002 DLL Side-Loading confidence: low
+Privilege Escalation
+T1574.002 DLL Side-Loading confidence: low
+Defense Evasion
+T1036 Masquerading confidence: low
+T1497 Virtualization/Sandbox Evasion confidence: medium
+T1574.002 DLL Side-Loading confidence: low
+Discovery
+T1518.001 Security Software Discovery confidence: low
+T1497 Virtualization/Sandbox Evasion confidence: medium
+T1082 System Information Discovery confidence: medium
+Command and Control
+T1095 Non-Application Layer Protocol confidence: low
+T1071 Application Layer Protocol confidence: low
+Network Info
+URL Info (100)
+https://a.nel.cloudflare.com/report/v4?s=kTRbMO959iIjV2PmO%2BDk%2BZnNeuytt42UCsE%2BufPL0%2B%2FZdx2w7
+
+from-memory reputation: high from: Launcher.exe, 00000002.00000003.3973250685.000001D9495C7000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3900529725.000001D9495C7000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000002.4015990158.000001D9495C7000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3753659415.000001D9495C7000.00000004.00000020.00020000.00000000.sdmp
+https://natureclient.com:2053/sessionG
+
+from-memory from: Launcher.exe, 00000002.00000003.3118843373.000001D9495BA000.00000004.00000020.00020000.00000000.sdmp
+https://natureclient.com:2053/status
+
+from-memory from: Launcher.exe, 00000002.00000003.3283033129.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3735099640.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3752051219.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3753659415.000001D949654000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3973250685.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3645055579.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3294396047.000001D949654000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3284541116.000001D9495BA000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3749816407.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3753659415.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp
+https://a.nel.clo
+
+from-memory from: Launcher.exe, 00000002.00000003.3460643648.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3587877605.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3428642849.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3645055579.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp
+https://a.nel.cloudflare.com/report/v4?s=DTVT%2BvFfaqt%2BVmPyJLiZmDl1Xi9FMcYq22Zl34uw20rP6YRPiFFQZVH
+
+from-memory reputation: high from: Launcher.exe, 00000002.00000002.4028773926.000001D94B535000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000002.4037166328.000001D94D7CA000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3973250685.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp
+https://a.nel.cloudflare.com/report/v4?s=qyhqX%2Bum3XaXVkynTbnM3KuHBulij0k9KB0o%2FZ%2F0w8DTttp87IvwU
+
+from-memory reputation: high from: Launcher.exe, 00000002.00000002.4028773926.000001D94B535000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000002.4037166328.000001D94D7CA000.00000004.00000020.00020000.00000000.sdmp
+https://natureclient.com:2053/a4#
+
+from-memory from: Launcher.exe, 00000002.00000003.3351543019.000001D94D883000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3362580183.000001D94D883000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3355791204.000001D94D883000.00000004.00000020.00020000.00000000.sdmp
+https://natureclient.com:2053/versiontions:
+
+from-memory from: Launcher.exe, 00000002.00000003.3686197622.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3645055579.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp
+https://natureclient.com:2053/OID
+
+from-memory from: Launcher.exe, 00000002.00000003.3118495514.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp
+https://a.nel.cloudflare.com/report/v4?s=KrtDaK5fXneVeF4e4hCBpvM1T3wUiHv%2FqXX7bs%2B9%2F0G3ruwAc2FFC
+
+from-memory reputation: high from: Launcher.exe, 00000002.00000003.3822141746.000001D94B53A000.00000004.00000020.00020000.00000000.sdmp
+https://a.nel.cloudflare.com/report/v4?s=KrzkhBIeCx8RiG245rFH5sfyToPrpShHUn%2BGe1Ou4LjxOjoJDnEd24cry
+
+from-memory reputation: high from: Launcher.exe, 00000002.00000002.4028773926.000001D94B518000.00000004.00000020.00020000.00000000.sdmp
+https://natureclient.com/json
+
+from-memory from: Launcher.exe, 00000002.00000002.4037166328.000001D94D7DA000.00000004.00000020.00020000.00000000.sdmp
+https://fontstruct.com/fontstructors/show/1463562/spiffykids)https://fontstruct.com/fontstructions/s
+
+from-memory from: Launcher.exe
+https://natureclient.com:2053/versionCach
+
+from-memory from: Launcher.exe, 00000002.00000003.3971704662.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp
+http://creativecommons.org/licenses/by-nc/3.0/Five
+
+from-memory reputation: high from: Launcher.exe
+https://a.nel.cloudflare.com/report/v4?s=P3jNInSg2KctfU6x7BhuJQQnKFSSezTNMGm0Un2Q0Tn%2B6PdobqIa1oKaU
+
+from-memory reputation: high from: Launcher.exe, 00000002.00000002.4028773926.000001D94B535000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000002.4037166328.000001D94D7CA000.00000004.00000020.00020000.00000000.sdmp
+https://natureclient.com:2053/FiM2FiYz
+
+from-memory from: Launcher.exe, 00000002.00000003.3665240852.000001D94D883000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3118495514.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000002.4039017288.000001D94D883000.00000004.00000020.00020000.00000000.sdmp
+https://natureclient.com:2053/version
+
+from-memory from: Launcher.exe, 00000002.00000003.3973250685.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3645055579.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3365272686.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3749816407.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3753659415.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp
+https://natureclient.comAccess-Control-Allow-MethodsGET
+
+from-memory from: Launcher.exe, 00000002.00000003.3665983187.000001D94B529000.00000004.00000020.00020000.00000000.sdmp
+https://fontstruct.comrYvett
+
+from-memory from: Launcher.exe
+https://natureclient.com:2053/loginvc:
+
+from-memory from: Launcher.exe, 00000002.00000003.3686197622.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp
+https://a.nel.cloudflare.com/report/v4?s=SmO004cEYSIipB%2FzXG5yXv1c
+
+from-memory reputation: high from: Launcher.exe, 00000002.00000003.3428642849.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp
+https://natureclient.com:2053/ogin
+
+from-memory from: Launcher.exe, 00000002.00000003.3750669989.000001D94D883000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3351543019.000001D94D883000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3665240852.000001D94D883000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3362580183.000001D94D883000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3355791204.000001D94D883000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3365715654.000001D94D883000.00000004.00000020.00020000.00000000.sdmp
+https://api.spotify.com/v1/me
+
+from-memory reputation: high from: Launcher.exe
+http://127.0.0.1:8000/callback
+
+from-memory from: Launcher.exe
+http://i.pki.goog/r4.crt0
+
+from-memory reputation: high from: Launcher.exe, 00000002.00000003.3697899813.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000002.4015990158.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3118495514.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3294396047.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3283033129.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3973250685.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3753659415.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp
+https://natureclient.com:2053/gin
+
+from-memory from: Launcher.exe, 00000002.00000003.3750669989.000001D94D883000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000002.4039017288.000001D94D883000.00000004.00000020.00020000.00000000.sdmp
+https://natureclient.com:2053/sessionS
+
+from-memory from: Launcher.exe, 00000002.00000003.3118495514.000001D9495E6000.00000004.00000020.00020000.00000000.sdmp
+https://natureclient.com:2053/6PRO
+
+from-memory from: Launcher.exe, 00000002.00000003.3294396047.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3283033129.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp
+https://a.nel.cloudflare.com/report/v4?s=6F8tlNRHZs6%2FmulOC5J6r%2BHjfD9sppcoaMnHEbI2taGoxxYs%2BUW%2
+
+from-memory reputation: high from: Launcher.exe, 00000002.00000003.3973250685.000001D9495C7000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3900529725.000001D9495C7000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000002.4015990158.000001D9495C7000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3753659415.000001D9495C7000.00000004.00000020.00020000.00000000.sdmp
+https://fontstruct.comArrowUP
+
+from-memory from: Launcher.exe
+https://natureclient.com:2053/
+
+from-memory from: Launcher.exe, 00000002.00000003.3750669989.000001D94D883000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3697899813.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3351543019.000001D94D883000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3665240852.000001D94D883000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000002.4039017288.000001D94D883000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3294396047.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3299718104.000001D94D883000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3118843373.000001D9495C7000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3980604321.000001D94D883000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3362580183.000001D94D883000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3355791204.000001D94D883000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3283033129.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000002.4037166328.000001D94D7CA000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3973250685.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3365715654.000001D94D883000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3118843373.000001D9495CF000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3753659415.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp
+http://www.marksimonson.comhttp://www.marksimonson.com/info/licensesProxima
+
+from-memory from: Launcher.exe
+http://i.pki.goog/we1.crt0/
+
+from-memory reputation: high from: Launcher.exe, 00000002.00000003.3697899813.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000002.4015990158.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3118495514.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3294396047.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3283033129.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3973250685.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3753659415.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp
+https://a.nel.cloudflare.com/report/v4?s=PIMAq2p0DnXYPDBvnFE5B4xDskI9uwz7OYEWydv5dL4A4%2Bzbd4AALjlJF
+
+from-memory reputation: high from: Launcher.exe, 00000002.00000003.3665983187.000001D94B529000.00000004.00000020.00020000.00000000.sdmp
+https://a.nel.cloudflare.com/report/v4?s=vcmLWjneJ3Bk%2BhdVLddo1xvpdZdYlehWNdq32N02UZpE6NxqQG6fLUahK
+
+from-memory reputation: high from: Launcher.exe, 00000002.00000002.4028773926.000001D94B535000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000002.4042147988.000001D94D940000.00000004.00000020.00020000.00000000.sdmp
+https://accounts.spotify.com/api/token
+
+from-memory reputation: high from: Launcher.exe
+https://natureclient.com:2053/YjA2ZW&
+
+from-memory from: Launcher.exe, 00000002.00000003.3980604321.000001D94D883000.00000004.00000020.00020000.00000000.sdmp
+https://natureclient.com:2053/a4gin
+
+from-memory from: Launcher.exe, 00000002.00000003.3365715654.000001D94D883000.00000004.00000020.00020000.00000000.sdmp
+https://a.nel.cloudflare.com/report/v4?s=4utwpMIzgCEMBXroGobQ424%2BqwDSn7VFo4djtVMhx5ae2npwk6Xbhrmbk
+
+from-memory reputation: high from: Launcher.exe, 00000002.00000003.3822141746.000001D94B53A000.00000004.00000020.00020000.00000000.sdmp
+https://natureclient.com:2053/YzYjA2ZW?
+
+from-memory from: Launcher.exe, 00000002.00000003.3750669989.000001D94D883000.00000004.00000020.00020000.00000000.sdmp
+http://c.pki.goog/r/gsr1.crl0
+
+from-memory reputation: high from: Launcher.exe, 00000002.00000003.3697899813.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000002.4015990158.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3118495514.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3294396047.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3283033129.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3973250685.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3753659415.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp
+https://natureclient.com:2053/;
+
+from-memory from: Launcher.exe, 00000002.00000003.3665240852.000001D94D883000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3355791204.000001D94D883000.00000004.00000020.00020000.00000000.sdmp
+https://a.nel.cloudflare.com/report/v4?s=WBqI27MA1TIjGDg1V2tP%2BLK9sLvHHMLuDlvfSYlePXnz6xtvDxiyzSo6q
+
+from-memory reputation: high from: Launcher.exe, 00000002.00000003.3973250685.000001D9495C7000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3900529725.000001D9495C7000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000002.4015990158.000001D9495C7000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3753659415.000001D9495C7000.00000004.00000020.00020000.00000000.sdmp
+https://a.nel.cloudflare.com/report/v4?s=Q3WhiZPUlw4ZGW9eCzX%2FmVbSOl9hHf4OiWhTEp1E4htSOaaInKjfnd%2F
+
+from-memory reputation: high from: Launcher.exe, 00000002.00000003.3294396047.000001D94964B000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3418690848.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3355281009.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3330911123.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3359995618.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3296555420.000001D94B5C3000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3365272686.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp
+https://a.nel.cloudflare.com/report/v4?s=qr0BT80wCEJXBhQREyGdIHK%2F%2F4EGwlCm7crGCwfrWoi6bH54NGU%2Bc
+
+from-memory reputation: high from: Launcher.exe, 00000002.00000003.3665983187.000001D94B529000.00000004.00000020.00020000.00000000.sdmp
+https://a.nel.cloudflare.com/report/v4?s=dn0d57r%2BEe7pQ4ADVajsf2Z7hUSOhsEecClHNDhfdiaUAQc5PKrzV8KfY
+
+from-memory reputation: high from: Launcher.exe, 00000002.00000002.4042147988.000001D94D946000.00000004.00000020.00020000.00000000.sdmp
+https://natureclient.com:2053/statusT
+
+from-memory from: Launcher.exe, 00000002.00000003.3283033129.000001D949654000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3294396047.000001D949654000.00000004.00000020.00020000.00000000.sdmp
+https://csp-reporting.cloudflare.com/cdn-cgi/script_monitor/report?m=y_DWdpOpOnrg_OmT.GlUAyC10xBbD3S
+
+from-memory reputation: high from: Launcher.exe, 00000002.00000002.4042147988.000001D94D940000.00000004.00000020.00020000.00000000.sdmp
+https://api.spotify.com/v1/me/player/currently-playing
+
+from-memory reputation: high from: Launcher.exe
+https://csp-reporting.cloudflare.com/cdn-cgi/script_monitor/report?m=AUtGWyvqm5Qkf9QcWzLs9zzLu7O_KJv
+
+from-memory reputation: high from: Launcher.exe, 00000002.00000003.3746189729.000001D94B55D000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3753659415.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp
+https://fontstruct.com/fontstructions/show/1423152/mineglyph-faithfulhttps://fontstruct.com/fontstru
+
+from-memory from: Launcher.exe
+https://a.nel.cloudflare.com/report/v4?s=k1Bd8Aux42q%2F3U%2Fn3O9%2B0%2FrooFcjWi%2F8Tsj8gHAJ1B%2F%2Bl
+
+from-memory reputation: high from: Launcher.exe, 00000002.00000003.3375798594.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3396755568.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3418690848.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3355281009.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3330911123.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3359995618.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3365272686.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp
+https://a.nel.cloudflare.com/report/v4?s=ztFz2wP4uLldQ8Pi2I7l5EDLhtJrVPbbz%2FGN5EOpHDzq8V22Vtr2Sn70Y
+
+from-memory reputation: high from: Launcher.exe, 00000002.00000003.3118495514.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp
+https://natureclient.com:2053/0
+
+from-memory from: Launcher.exe, 00000002.00000003.3750669989.000001D94D883000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000002.4039017288.000001D94D883000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3980604321.000001D94D883000.00000004.00000020.00020000.00000000.sdmp
+https://natureclient.com:2053/a4p
+
+from-memory from: Launcher.exe, 00000002.00000002.4039017288.000001D94D883000.00000004.00000020.00020000.00000000.sdmp
+https://natureclient.comb
+
+from-memory from: Launcher.exe, 00000002.00000003.3465400762.000001D94D7DA000.00000004.00000020.00020000.00000000.sdmp
+http://www.marksimonson.comhttp://www.marksimonson.com/info/licensesSchoolbook
+
+from-memory from: Launcher.exe
+http://i.pki.goog/gsr1.crt0-
+
+from-memory reputation: high from: Launcher.exe, 00000002.00000003.3697899813.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000002.4015990158.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3118495514.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3294396047.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3283033129.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3973250685.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3753659415.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp
+https://a.nel.cloudflare.com/report/v4?s=wGcCEKl54kGikPK%2Fu6mAw9Ykwni9XY88r%2BEuaZx4MS%2BbKer1Yl6mN
+
+from-memory reputation: high from: Launcher.exe, 00000002.00000003.3665983187.000001D94B529000.00000004.00000020.00020000.00000000.sdmp
+https://a.nel.cloudflare.com/report/v4?s=Ao6ZZsGK2H%2B%2Fj2eQVAZ3adFPEtgchQkDTgLDxlJ2XqC54cmBnYRzzJ1
+
+from-memory reputation: high from: Launcher.exe, 00000002.00000002.4042147988.000001D94D940000.00000004.00000020.00020000.00000000.sdmp
+https://a.nel.cloudflare.com/report/v4?s=%2F%2F5O%2F6YTH7E2YeLYWkKLTXqkRarH0A5v1JqC2Xtb7gJLMtNLM49Np
+
+from-memory reputation: high from: Launcher.exe, 00000002.00000002.4028773926.000001D94B535000.00000004.00000020.00020000.00000000.sdmp
+https://natureclient.com:2053/FiM2FiYzY
+
+from-memory from: Launcher.exe, 00000002.00000003.3750669989.000001D94D883000.00000004.00000020.00020000.00000000.sdmp
+http://o.pki.goog/s/we1/C9w0%
+
+from-memory reputation: high from: Launcher.exe, 00000002.00000003.3697899813.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000002.4015990158.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3118495514.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3294396047.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3283033129.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3973250685.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3753659415.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp
+https://natureclient.com:2053/statusnCa0qA1o9OlQGa
+
+from-memory from: Launcher.exe, 00000002.00000003.3713276667.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3735099640.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp
+https://natureclient.com:2053/version://natur
+
+from-memory from: Launcher.exe, 00000002.00000003.3744630757.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3746189729.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3752051219.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3749816407.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp
+https://natureclient.com:2053/ogin5kL
+
+from-memory from: Launcher.exe, 00000002.00000003.3118495514.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp
+https://natureclient.com:2053/statusdll
+
+from-memory from: Launcher.exe, 00000002.00000003.3294396047.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp
+https://natureclient.com
+
+from-memory from: Launcher.exe, 00000002.00000003.3587877605.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3330911123.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3583632384.000001D94D93D000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3752051219.000001D94B549000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000002.4028773926.000001D94B505000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3359995618.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3651258989.000001D94D903000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3749816407.000001D94B549000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000002.4028773926.000001D94B535000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3428642849.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3283033129.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3654054640.000001D94D93D000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3618470561.000001D94D903000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000002.4015990158.000001D9495C7000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000002.4037166328.000001D94D7CA000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3296555420.000001D94B5C3000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3973250685.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000002.4042147988.000001D94D940000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3285478392.000001D94B5CA000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3482420513.000001D94D902000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3645055579.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp
+https://www.google.com/fonts/license/productsanshttps://www.google.com/fonts/license/productsans
+
+from-memory reputation: high from: Launcher.exe
+https://natureclient.com:2053/kxZWQxNW
+
+from-memory from: Launcher.exe, 00000002.00000002.4039017288.000001D94D883000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3980604321.000001D94D883000.00000004.00000020.00020000.00000000.sdmp
+https://natureclient.com:2053/login
+
+from-memory from: Launcher.exe, 00000002.00000003.3118495514.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000002.4028773926.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3713276667.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3396755568.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000002.4039017288.000001D94D883000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3460643648.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3746189729.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3971704662.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3418690848.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3980604321.000001D94D883000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3118495514.000001D9495E6000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3362580183.000001D94D883000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3587877605.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3428642849.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3355791204.000001D94D883000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3735099640.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3752051219.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3645055579.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000002.4028773926.000001D94B4F5000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3365272686.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3749816407.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp
+https://natureclient.com:2053/FiM2FiYzM
+
+from-memory from: Launcher.exe, 00000002.00000003.3665240852.000001D94D883000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3362580183.000001D94D883000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3355791204.000001D94D883000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3365715654.000001D94D883000.00000004.00000020.00020000.00000000.sdmp
+https://natureclient.com:2053/oginqk
+
+from-memory from: Launcher.exe, 00000002.00000003.3118495514.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp
+https://natureclient.com:2053/a06
+
+from-memory from: Launcher.exe, 00000002.00000003.3362580183.000001D94D883000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3355791204.000001D94D883000.00000004.00000020.00020000.00000000.sdmp
+https://a.nel.cloudflare.com/report/v4?s=DxeK7PBkIvtb75DA5ffaL7aKmLVgN7zqT9FxS%2B4yZ6RsfVutMlNhHLgLs
+
+from-memory reputation: high from: Launcher.exe, 00000002.00000002.4037166328.000001D94D7CA000.00000004.00000020.00020000.00000000.sdmp
+https://natureclient.com:2053/DbtItV1x
+
+from-memory from: Launcher.exe, 00000002.00000002.4039017288.000001D94D883000.00000004.00000020.00020000.00000000.sdmp
+https://natureclient.com:2053/dEksERt
+
+from-memory from: Launcher.exe, 00000002.00000003.3362580183.000001D94D883000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3355791204.000001D94D883000.00000004.00000020.00020000.00000000.sdmp
+https://a.nel.cloudflare.com/report/v4?s=Dnjwb1hSHRLPYn7BWg5CPEKZ8bCM44jlxBsORwCwHW68fPPgQHYUq1f4h%2
+
+from-memory reputation: high from: Launcher.exe, 00000002.00000002.4028773926.000001D94B535000.00000004.00000020.00020000.00000000.sdmp
+https://a.nel.cloudflare.com/report/v4?s=qwtFlaqwfNkYhZ3FzGlciCc6MQEhu1L3Gs%2BopNUpWQg68WQ%2B3dQK9JH
+
+from-memory reputation: high from: Launcher.exe, 00000002.00000002.4028773926.000001D94B535000.00000004.00000020.00020000.00000000.sdmp
+https://natureclient.com:2053/statusQt
+
+from-memory from: Launcher.exe, 00000002.00000002.4028773926.000001D94B518000.00000004.00000020.00020000.00000000.sdmp
+https://a.nel.cloudflare.com/report/v4?s=KfGttuUarVHQp1llRLoT1x98N9RBeOIrP2A5sujcfBIkJUqbgp5jFj%2BAz
+
+from-memory reputation: high from: Launcher.exe, 00000002.00000002.4042147988.000001D94D946000.00000004.00000020.00020000.00000000.sdmp
+https://open.spotify.com/track/
+
+from-memory reputation: high from: Launcher.exe
+https://natureclient.com:2053/p
+
+from-memory from: Launcher.exe, 00000002.00000003.3750669989.000001D94D883000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000002.4039017288.000001D94D883000.00000004.00000020.00020000.00000000.sdmp
+https://a.nel.cloudflare.com/report/v4?s=maC5l1TTshxJCEb2RtrSg77JJuf1kc5%2BpHfHkzmt%2BXifGw5r1mlnFvQ
+
+from-memory reputation: high from: Launcher.exe, 00000002.00000002.4042147988.000001D94D940000.00000004.00000020.00020000.00000000.sdmp
+https://accounts.spotify.com/authorize?response_type=code&client_id=
+
+from-memory reputation: high from: Launcher.exe
+https://natureclient.com:2053/j
+
+from-memory from: Launcher.exe, 00000002.00000003.3980604321.000001D94D883000.00000004.00000020.00020000.00000000.sdmp
+https://a.nel.cloudflare.com/report/v4?s=MRNyI0nUBi349LWqKy70PWbtYsPOdfmkwg4tfa9HxkmdGkMxOaAkrBfWma6
+
+from-memory reputation: high from: Launcher.exe, 00000002.00000003.3665983187.000001D94B529000.00000004.00000020.00020000.00000000.sdmp
+https://natureclient.com:2053/5?
+
+from-memory from: Launcher.exe, 00000002.00000003.3351543019.000001D94D883000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3362580183.000001D94D883000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3355791204.000001D94D883000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3365715654.000001D94D883000.00000004.00000020.00020000.00000000.sdmp
+https://a.nel.cloudflare.com/report/v4?s=isSimgEFPDQn%2FyBsRS43mi8wO0tbM%2B%2FpsiLRxnWrb5JC91FzGYnjm
+
+from-memory reputation: high from: Launcher.exe, 00000002.00000003.3746189729.000001D94B55D000.00000004.00000020.00020000.00000000.sdmp
+https://a.nel.cloudflare.com/report/v4?s=a%2Bf%2BEtfOtrDpQ7xXe4yxTu8Qu%2BwMyamoMPhLQ%2BgnVvQxcK5a9JT
+
+from-memory reputation: high from: Launcher.exe, 00000002.00000003.3587877605.000001D94B52A000.00000004.00000020.00020000.00000000.sdmp
+https://a.nel.cloudflare.com/report/v4?s=3u0jvZo5MyWjfxcHrrb7%2BeAWQs5wiQ9%2FFvs5MC79Ml9JTFEEEEEic9c
+
+from-memory reputation: high from: Launcher.exe, 00000002.00000003.3395823909.000001D94D902000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3368003712.000001D94D902000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3482420513.000001D94D902000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3425685473.000001D94D902000.00000004.00000020.00020000.00000000.sdmp
+http://c.pki.goog/r/r4.crl0
+
+from-memory reputation: high from: Launcher.exe, 00000002.00000003.3697899813.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000002.4015990158.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3118495514.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3294396047.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3283033129.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3973250685.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3753659415.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp
+https://natureclient.com:2053/4a
+
+from-memory from: Launcher.exe, 00000002.00000003.3750669989.000001D94D883000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3665240852.000001D94D883000.00000004.00000020.00020000.00000000.sdmp
+https://a.nel.cloudflare.com/report/v
+
+from-memory reputation: high from: Launcher.exe, 00000002.00000003.3460643648.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3587877605.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3428642849.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3645055579.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp
+https://natureclient.com:2053/status=
+
+from-memory from: Launcher.exe, 00000002.00000003.3973250685.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp
+https://natureclient.com:2053/a0YjA2ZW
+
+from-memory from: Launcher.exe, 00000002.00000002.4039017288.000001D94D883000.00000004.00000020.00020000.00000000.sdmp
+https://natureclient.com:2053/status9
+
+from-memory from: Launcher.exe, 00000002.00000003.3697899813.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000002.4015990158.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3973250685.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3753659415.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp
+https://natureclient.com:2053/session
+
+from-memory from: Launcher.exe, 00000002.00000003.3753659415.000001D9495E0000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3744630757.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3686197622.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3283033129.000001D9495E6000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3979959430.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3294396047.000001D9495E3000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000002.4015990158.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3375798594.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3973250685.000001D9495E0000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000002.4028773926.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3713276667.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3396755568.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3460643648.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3746189729.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3971704662.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3418690848.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3355281009.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3587877605.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3330911123.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3359995618.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3428642849.000001D94B5BC000.00000004.00000020.00020000.00000000.sdmp
+http://c.pki.goog/we1/UIumR6EfnvM.crl0
+
+from-memory reputation: high from: Launcher.exe, 00000002.00000003.3697899813.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000002.4015990158.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3118495514.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3294396047.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3283033129.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3973250685.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp, Launcher.exe, 00000002.00000003.3753659415.000001D9495F2000.00000004.00000020.00020000.00000000.sdmp
+Domain Info (8)
+Domain	IP Resolutions	Signatures
+ln-0007.ln-msedge.net active	150.171.22.17	
+bg.microsoft.map.fastly.net active reputation: high	199.232.214.172	
+natureclient.com active	172.67.153.230	
+Performs DNS lookups
+URLs found in memory or binary data
+s-0005.dual-s-msedge.net active reputation: high	52.123.129.14	
+a1672.dscr.akamai.net active	23.195.81.73	
+eip-terr-na.cdp1.digicert.com.akahost.net active	23.11.33.159	
+dns.google active reputation: high	8.8.4.4	
+Performs DNS lookups
+windows.msn.com reputation: high	unknown	
+Performs DNS lookups
+IP Info (1)
+IP	Country
+172.67.153.230	United States
+Processes Extra Info
+Process: Launcher.exe
+PID: 6080
+Parent PID: 4472
+IPs
+172.67.153.230
+
+
+
+---------------------------------------------- CONCLUSION (my opinion) ----------------------------------------------------------------
+
+Extremely Suspicious.
+It looks for other games in your pc.
+It connects to some sus domains. like why is a Minecraft hacked client going to Spotify?
+It might be a stage based malware.
+example: it's gathering information on first iteration. 
+maybe it detonates the payload second time. (who knows. this is just a guess btw)
+
+Considering the fact that it is literally was downloaded from a typo squatted website.
+it could be malware.
+
+and even if it isn't.
+they already have ur device id, ur ip and everything they need to doxx u.
+
+Stay safe.
+
+
+
+
+                                                                    - Report by @marquil-san 
+
+
+
