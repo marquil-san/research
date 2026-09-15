@@ -7,4 +7,4 @@
 **Threat Label** -> `trojan.gamehack`                                   
 ---
 
-> Disclaimer: It's a VirusTotal static analysis. Too lazy to check an outdated client.
+> Disclaimer: It's a VirusTotal static analysis. I'm too lazy to check an outdated client.
