@@ -1,8 +1,7 @@
 # Solstice Client — Analysis Summary
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Analysis-orange?style=for-the-badge">
-  <img src="https://img.shields.io/badge/VirusTotal-21%2F70-red?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-UNSAFE-orange?style=for-the-badge">
   <img src="https://img.shields.io/badge/File-DLL-blue?style=for-the-badge">
 </p>
 
